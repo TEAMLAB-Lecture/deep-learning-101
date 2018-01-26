@@ -71,5 +71,8 @@
 - [History and Background](https://beamandrew.github.io/deeplearning/2017/02/23/deep_learning_101_part1.html)
 - [자습해도 모르겠던 딥러닝, 머리속에 인스톨 시켜드립니다.](https://www.slideshare.net/yongho/ss-79607172), 하용호, 2017
 - [계산 그래프로 역전파 이해하기](https://brunch.co.kr/@chris-song/22)
-
+- Word Embedding
+    - [Neural Network Language Model](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/29/NNLM/), ratsgo's blog, 2017
+    - [Word2Vec의 학습 방식](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/30/word2vec/), ratsgo's blog, 2017
+    - [빈도수 세기의 놀라운 마법 Word2Vec, Glove, Fasttext](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/11/embedding/), ratsgo's blog, 2017
 # References
