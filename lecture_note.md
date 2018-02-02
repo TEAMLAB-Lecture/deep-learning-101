@@ -1,5 +1,12 @@
 # deep_learning_101
 
+# User Setting
+- [윈도우에 Keras 설치하기](https://tykimos.github.io/2017/08/07/Keras_Install_on_Windows/)
+
+```bash
+python -m ipykernel install --user
+```
+
 어떤질문들에 대답해야 할까?
 - 딥러닝이 왜 좋아졌어요? -> 발전한 계기
 - 딥러닝이 어떻게 발전했어요? -> 역사

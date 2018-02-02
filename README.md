@@ -26,6 +26,10 @@ TEAMLAB MOOC: Deep Learning - Theroy and Application
 * Facebook: [Gachon CS50](https://www.facebook.com/GachonCS50)
 * Email: teamlab.gachon@gmail.com
 
+## Dataset
+- [Caltech101 Collection of pictures](http://www.vision.caltech.edu/Image_Datasets/Caltech101/#Download)
+
+
 ## 강의 구성
 ### Chapter 1: Introduction to Deep Learning
 #### Lecture
@@ -40,6 +44,7 @@ TEAMLAB MOOC: Deep Learning - Theroy and Application
 
 #### Reading materials
 - [History and Background](https://beamandrew.github.io/deeplearning/2017/02/23/deep_learning_101_part1.html)
+- [윈도우에 Keras 설치하기](https://tykimos.github.io/2017/08/07/Keras_Install_on_Windows/)
 
 #### Supplements - Environment setup
 - 가상환경과 Package 활용하기 - [강의영  상](https://www.youtube.com/watch?v=QLF5UvUvKCo&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=51), [강의자료](https://doc.co/SoCj3W/EFk5T6)
