@@ -27,7 +27,9 @@ TEAMLAB MOOC: Deep Learning - Theroy and Application
 * Email: teamlab.gachon@gmail.com
 
 ## Dataset
-- [Caltech101 Collection of pictures](http://www.vision.caltech.edu/Image_Datasets/Caltech101/#Download)
+- [Caltech101 Collection of pictures](http://www.vision.caltech.edu/Image_Datasets/Caltech101/#Download) - [s3](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/data/101_ObjectCategories.tar.gz)
+- [notMNIST](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html) - [s3](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/data/notMNIST_large.tar.gz)
+- [20news-bydate](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/data/20news-bydate.tar.gz)
 
 
 ## 강의 구성

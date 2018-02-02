@@ -1,7 +1,7 @@
 # deep_learning_101
 
 # User Setting
-- [윈도우에 Keras 설치하기](https://tykimos.github.io/2017/08/07/Keras_Install_on_Windows/)
+- [윈도우에 Keras 설치하기](https://tykimos.github.io/2017/08/07/Keras_Install_on_Windows/) -
 
 ```bash
 python -m ipykernel install --user
