@@ -1,4 +1,4 @@
-TEAMLAB MOOC: Deep Learning - Theroy and Application
+TEAMLAB MOOC: Deep Learning - Theory and Application
 ==================================
 
 본 강의는 TEAMLAB의 데이터 과학 시리즈 MOOC의 일환으로 제작됩니다. 본 과정은 아래와 같이 구성됩니다.
@@ -20,8 +20,7 @@ TEAMLAB MOOC: Deep Learning - Theroy and Application
 - 딥 러닝을 활용한 다양한 Application과 관련 논문을 구현함
 
 ## 강의 정보
-
-* 강좌명: Deep Learning - Theroy and Application
+* 강좌명: Deep Learning - Theory and Application
 * 강의자명: 가천대학교 산업경영공학과 최성철 교수 (sc82.choi@gachon.ac.kr, Director of [TEAMLAB](http://theteamlab.io/))
 * Facebook: [Gachon CS50](https://www.facebook.com/GachonCS50)
 * Email: teamlab.gachon@gmail.com
@@ -42,11 +41,22 @@ TEAMLAB MOOC: Deep Learning - Theroy and Application
 - 딥 러닝 Framework 설치
   - Tensorflow
   - Keras
-  - PyTorch
 
 #### Reading materials
 - [History and Background](https://beamandrew.github.io/deeplearning/2017/02/23/deep_learning_101_part1.html)
 - [윈도우에 Keras 설치하기](https://tykimos.github.io/2017/08/07/Keras_Install_on_Windows/)
+
+#### Supplements - Introduction to Machine Learning
+- Machine learning overview - [강의영상](https://vimeo.com/247764673/aabdcb012b), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaNi0-Kp-PSXavrlqA)
+- An understanding of the data keywords - [강의영상](https://vimeo.com/248134839/41beebbb52), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaNWzCy7_qdMbAAYmQ)
+- How to learn machine learning - [강의영상](https://vimeo.com/247903234/d1be4a892d), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaNX7i9JHPB04EwT3g)
+- Types of machine learning - [강의영상](https://vimeo.com/247903499/be2133e5e4), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaNYJGXJnnhTP1Ckgg)
+- Data era: In a perspective of business - [강의영상](https://vimeo.com/247797541/2eff79192d), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaNryl5eqXo-uKrU4A)
+- The concepts of a feature - [강의영상](https://vimeo.com/248135476/30221dd1c0), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaNeJhTRwFjT-bGVDw)
+- Data types - [강의영상](https://vimeo.com/248135502/0247ac40cb), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaNfXxiglrHTYuOtlQ)
+- Loading data with pandas - [강의영상](https://vimeo.com/248135531/09d2e1583f), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaNgvdCPoeAyNSGDwg)
+- Representing a model with numpy - [강의영상](https://vimeo.com/248429135/80a20f04b8), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaNwy4iBhErFok3ecA)
+
 
 #### Supplements - Environment setup
 - 가상환경과 Package 활용하기 - [강의영  상](https://www.youtube.com/watch?v=QLF5UvUvKCo&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=51), [강의자료](https://doc.co/SoCj3W/EFk5T6)
@@ -55,9 +65,9 @@ TEAMLAB MOOC: Deep Learning - Theroy and Application
 
 
 #### Supplements - Linear algebra
-  - Lab: Simple Linear algebra concepts - [강의영상](https://vimeo.com/245942627/d2e4ef3e5e), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaMuKaE5x8t0z1Z4vw)
-  - Lab: Simple Linear algebra codes - [강의영상](https://vimeo.com/245943473/7372cc35c3), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaMv7umjL_JYHsubsA)
-  - Assignment: Linear algebra with pythonic code -  [PDF](https://github.com/TeamLab/introduction_to_python_TEAMLAB_MOOC/raw/master/lab_assignment/lab_bla/lab_bla.pdf), [강의자료](https://github.com/TeamLab/introduction_to_python_TEAMLAB_MOOC/tree/master/lab_assignment/lab_bla)
+- Lab: Simple Linear algebra concepts - [강의영상](https://vimeo.com/245942627/d2e4ef3e5e), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaMuKaE5x8t0z1Z4vw)
+- Lab: Simple Linear algebra codes - [강의영상](https://vimeo.com/245943473/7372cc35c3), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaMv7umjL_JYHsubsA)
+- Assignment: Linear algebra with pythonic code -  [PDF](https://github.com/TeamLab/introduction_to_python_TEAMLAB_MOOC/raw/master/lab_assignment/lab_bla/lab_bla.pdf), [강의자료](https://github.com/TeamLab/introduction_to_python_TEAMLAB_MOOC/tree/master/lab_assignment/lab_bla)
 
 #### Supplements - Numpy
 - Chapter Intro - [강의영상](https://vimeo.com/249674805/e3f21116ab), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaNyqXoFReKxEoauMA), [강의코드](https://github.com/TeamLab/machine_learning_from_scratch_with_python/tree/master/code/ch3), [코드다운로드](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/ml_ch3.zip)
@@ -75,11 +85,20 @@ TEAMLAB MOOC: Deep Learning - Theroy and Application
 
 ### Chapter 2: Neural Network Basic
 #### Lecture
+- Linear regression overview - [강의영상](https://vimeo.com/254316917/a63ddb889c)
+- Cost functions - [강의영상](https://vimeo.com/254316943/b2907cf716)
+- Gradient descent approach - [강의영상](https://vimeo.com/254317156/6a101f5f54)
+- Linear regression wtih gradient descent - [강의영상](https://vimeo.com/254316980/520c7fd462)
+- Linear regression implementation wtih Numpy - [강의영상](https://vimeo.com/254408998/2913ccc5f3)
+- Multivariate linear regression models - [강의영상](https://vimeo.com/254408924/fbdc622b7c)
+- Performance measure for a regression model - [강의영상](https://vimeo.com/254408950/ec2c85c010)
 - Linear Regression
 - Gradient descent
 - Stochastic gradient descent
 - Logistic Regression
 - Softmax
+
+
 
 ### Chapter 3: Aritificial Neural Net - Algorithms & Implmentation
 #### Lecture
