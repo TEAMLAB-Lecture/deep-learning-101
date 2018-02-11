@@ -30,6 +30,8 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 - [notMNIST](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html) - [s3](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/data/notMNIST_large.tar.gz)
 - [20news-bydate](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/data/20news-bydate.tar.gz)
 
+## References
+- http://nmhkahn.github.io/
 
 ## 강의 구성
 ### Chapter 1: Introduction to Deep Learning
@@ -116,12 +118,23 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 #### Reading materials
 - [자습해도 모르겠던 딥러닝, 머리속에 인스톨 시켜드립니다.](https://www.slideshare.net/yongho/ss-79607172), 하용호, 2017
 - [Efficient Processing of Deep Neural Networks: A Tutorial and Survey](https://arxiv.org/abs/1703.09039), 2017
+- [Batch Normalization 설명 및 구현
+](https://shuuki4.wordpress.com/2016/01/13/batch-normalization-%EC%84%A4%EB%AA%85-%EB%B0%8F-%EA%B5%AC%ED%98%84/)
+- [Batch Normalization (ICML 2015)](http://sanghyukchun.github.io/88/)
 
 ### Chapter 5: Building blocks of Deep Learning Part II
 #### Lecture
 - Dropout
+  -
 - Regularization
 - Weight Initialization
+  - Xavier : W = random.gaussian(n_input, n_output) / sqrt(n_input)
+  - He et al., 2015 : W = random.gaussian(n_input, n_output) / sqrt(n_input / 2)
+
+#### Reading materials
+- [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification
+](https://arxiv.org/abs/1502.01852)
+- [Understanding the difficulty of training deep feedforward neural networks](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)
 
 ### Chapter 6: Convolutional Neural Network(CNN)
 #### Lecture
