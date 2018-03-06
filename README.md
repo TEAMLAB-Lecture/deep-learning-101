@@ -85,6 +85,38 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 - Numpy data i/o - [강의영상](https://vimeo.com/249931258/74a7d3812d)
 - Assignment: Numpy in a nutshell -  [PDF](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/lab_numpy.pdf), [강의자료](https://github.com/TeamLab/machine_learning_from_scratch_with_python/tree/master/lab_asssigment/1_lab_numpy)
 
+#### Supplements - pandas
+- Chapter Intro - [강의영상](https://vimeo.com/249674832/64fda89754), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaQAO3rOwCot37nR8Q), [강의코드](https://github.com/TeamLab/machine_learning_from_scratch_with_python/tree/master/code/ch4), [코드다운로드](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/ml_ch4.zip)
+- Pandas overview - [강의영상](https://vimeo.com/249473330/d53678608e)
+- Series - [강의영상](https://vimeo.com/249473353/384f5b080f)
+- DataFrame - [강의영상](https://vimeo.com/249672906/3eefec3cdf)
+- Selection & Drop - [강의영상](https://vimeo.com/250073952/c3c93fcbad)
+- Dataframe operations - [강의영상](https://vimeo.com/250073459/5e8adab854)
+- lambda, map apply - [강의영상](https://vimeo.com/250073641/efc19a0483)
+- Pandas builit-in functions - [강의영상](https://vimeo.com/250073829/2cfe61c2bf)
+- Chapter Intro - [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaQa8FVnGK2l1QaSJg), [강의코드](https://github.com/TeamLab/machine_learning_from_scratch_with_python/tree/master/code/ch5), [코드다운로드](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/ml_ch5.zip)
+- Groupby I - [강의영상](https://vimeo.com/253185232/9bfc816ee9)
+- Groupby II - [강의영상](https://vimeo.com/253185540/4bb45d7a09)
+- Casestudy - [강의영상](https://vimeo.com/251284738/37d0935264)
+- Pivot table & Crosstab - [강의영상](https://vimeo.com/251330503/6daad27d7f)
+- Merg & Concat - [강의영상](https://vimeo.com/251330570/5b6bc44864)
+- Database connection & Persistance - [강의영상](https://vimeo.com/251330534/a04645438d)
+- Lab Assignment: Build a matrix -  [PDF](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/build_matrix.pdf), [강의자료](https://github.com/TeamLab/machine_learning_from_scratch_with_python/tree/master/lab_asssigment/2_lab_build_matrix)
+
+#### Supplements - Matplotlib Section
+- Chapter overview - [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaQw-lIv5reI4vIvfw), [강의코드](https://github.com/TeamLab/machine_learning_from_scratch_with_python/tree/master/code/ch6), [코드다운로드](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/ml_ch6.zip)
+- Matplotlib overview - [강의영상](https://vimeo.com/251573557/ddc320446a), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaQbz6fWa08EHSdGOQ)
+- Basic functions & operations - [강의영상](https://vimeo.com/251769481/5fbe305ead)
+- Graph - [강의영상](https://vimeo.com/251769953/73644ee23e)
+- Matplotlib with pandas - [강의영상](https://vimeo.com/251821603/0447d31022)
+- Data Cleaning Problem Overview - [강의영상](https://vimeo.com/252468585/0c24256410), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaQmT5xxHDG16NqLmA)
+- Missing Values - [강의영상](https://vimeo.com/252468679/68a3b62101)
+- Categorical Data Handling - [강의영상](https://vimeo.com/252468833/8b7bc89171)
+- Feature Scaling - [강의영상](https://vimeo.com/252469008/7091d9aab0)
+- Casestudy - KagglepProblems - [강의영상](https://vimeo.com/252469298/ac905e9f97), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaQo6vgHDZvp3vT5Wg)
+
+
+
 ### Chapter 2: Neural Network Basic
 #### Lecture
 - Linear regression overview - [강의영상](https://vimeo.com/254316917/a63ddb889c)
