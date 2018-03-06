@@ -48,6 +48,12 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 - [History and Background](https://beamandrew.github.io/deeplearning/2017/02/23/deep_learning_101_part1.html)
 - [윈도우에 Keras 설치하기](https://tykimos.github.io/2017/08/07/Keras_Install_on_Windows/)
 
+#### Coding environment
+- [Google Drive Colaboratory ], todaycodes오늘코드
+(https://www.youtube.com/watch?v=XRBXMohjQos&list=PLaTc2c6yEwmo9MZi-0OLi8F6bM6AA0wjE)
+- [Colaboratory]
+)(https://colab.research.google.com)
+
 #### Supplements - Introduction to Machine Learning
 - Machine learning overview - [강의영상](https://vimeo.com/247764673/aabdcb012b), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaNi0-Kp-PSXavrlqA)
 - An understanding of the data keywords - [강의영상](https://vimeo.com/248134839/41beebbb52), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaNWzCy7_qdMbAAYmQ)
