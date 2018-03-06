@@ -132,7 +132,40 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 - Logistic Regression
 - Softmax
 
+#### Supplements - Linear regression
+- Chapter overview - [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaRTHSfpYrbR5D8wNQ), [강의코드](https://github.com/TeamLab/machine_learning_from_scratch_with_python/tree/master/code/ch7), [코드다운로드](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/ml_ch7.zip)
+- Linear regression overview - [강의영상](https://vimeo.com/254316917/a63ddb889c)
+- Cost functions - [강의영상](https://vimeo.com/254316943/b2907cf716)
+- Normal equation - [강의영상](https://vimeo.com/254317793/602d3132f6)
+- Lab Assignment: Normal equation -  [PDF](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/lab_linear_model.pdf), [강의자료](https://github.com/TeamLab/machine_learning_from_scratch_with_python/tree/master/lab_asssigment/5_normal_equation)
+- Gradient descent approach - [강의영상](https://vimeo.com/254317156/6a101f5f54)
+- Linear regression wtih gradient descent - [강의영상](https://vimeo.com/254316980/520c7fd462)
+- Linear regression implementation wtih Numpy - [강의영상](https://vimeo.com/254408998/2913ccc5f3)
+- Multivariate linear regression models - [강의영상](https://vimeo.com/254408924/fbdc622b7c)
+- Performance measure for a regression model - [강의영상](https://vimeo.com/254408950/ec2c85c010)
+- Linear regression implementation wtih scikit-learn - [강의영상](https://vimeo.com/254408973/50db14a47b)
+- Lab Assignment: Gradient descent -  [PDF](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/lab_linear_model_gd.pdf), [강의자료](https://github.com/TeamLab/machine_learning_from_scratch_with_python/tree/master/lab_asssigment/6_gradient_descent)
+- Chapter overview - [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaRTHSfpYrbR5D8wNQ), [강의코드](https://1drv.ms/b/s!ApZ4mg7k2qYhgaUEwtbgkp_vjGAstw), [코드다운로드](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/ml_ch8.zip)
+- Stochastic gradient descent - [강의영상](https://vimeo.com/255385405/cc3cbd1f3c)
+- SGD implementation issues - [강의영상](https://vimeo.com/255385567/e57c9e7b16)
+- Overfitting and regularization overview - [강의영상](https://vimeo.com/255568128/cbaa0cbe5b)
+- Regularization - L1, L2 - [강의영상](https://vimeo.com/255682381/41393681bb)
+- sklearn Linear Model family - [강의영상](https://vimeo.com/255682163/baf3549426)
+- Polynomial regression  - [강의영상](https://vimeo.com/256603048/901c26d2be)
+- Sampling method - [강의영상](https://vimeo.com/256603180/fd9c478a50)
+- Kaggle project : Bike demand  - [강의영상](https://vimeo.com/256773298/1a73592a47)
 
+#### Supplements - Logistic Regression
+- Chapter overview - [강의영상](https://vimeo.com/249674832/64fda89754), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaVAxGSMqXNryj0Ydg), [강의코드](https://github.com/TeamLab/machine_learning_from_scratch_with_python/tree/master/code/ch9)
+[강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaRTHSfpYrbR5D8wNQ), [강의코드](https://1drv.ms/b/s!ApZ4mg7k2qYhgaUEwtbgkp_vjGAstw), [코드다운로드](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/ml_ch8.zip)
+- Logistic regression overview - [강의영상](https://vimeo.com/258218955/19f1193c49)
+- Sigmoid function - [강의영상](https://vimeo.com/258219026/583841f34d)
+- Cost function - [강의영상](https://vimeo.com/258219105/6dec19085d)
+- Logistic regression implementation with numpy - [강의영상](https://vimeo.com/258219162/891fd45245)
+- Maximum Likelyhood Estimation - [강의영상](https://vimeo.com/258219016/3337867fa9)
+- Logistic regression with scikit-learn - [강의영상](https://vimeo.com/258570220/60c5759d79)
+- Confusion matrix - [강의영상](https://vimeo.com/258570335/2de79f7ef9)
+- Performance metrics for classification - [강의영상](https://vimeo.com/258570350/dd0ad37bc9)
 
 ### Chapter 3: Aritificial Neural Net - Algorithms & Implmentation
 #### Lecture
