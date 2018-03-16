@@ -173,6 +173,14 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 - Logistic regression with scikit-learn - [강의영상](https://vimeo.com/258570220/60c5759d79)
 - Confusion matrix - [강의영상](https://vimeo.com/258570335/2de79f7ef9)
 - Performance metrics for classification - [강의영상](https://vimeo.com/258570350/dd0ad37bc9)
+- Chapter overview - [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhga4ADmy-bPQPjynS7w), [강의코드](https://github.com/TeamLab/machine_learning_from_scratch_with_python/tree/master/code/ch10)
+- Multiclass Classification overview - [강의영상](https://vimeo.com/260354045/b89c3972cf)
+- Softmax function #1 - [강의영상](https://vimeo.com/260354075/090e29741d)
+- Softmax function #2 - [강의영상](https://vimeo.com/260376690/3dafb3bc7f)
+- Softmax regression with numpy - [강의영상](https://vimeo.com/260376761/3ca5698add)
+- Performance metrics for classification - [강의영상](https://vimeo.com/260376874/b972955fbb)
+- Multiclass classification with scikit-learn - [강의영상](https://vimeo.com/260376409/14a54be975)
+
 
 ### Chapter 3: Aritificial Neural Net - Algorithms & Implmentation
 #### Lecture
