@@ -54,6 +54,7 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 (https://www.youtube.com/watch?v=XRBXMohjQos&list=PLaTc2c6yEwmo9MZi-0OLi8F6bM6AA0wjE)
 - [Colaboratory]
 )(https://colab.research.google.com)
+- [GPU on AWS](https://beomi.github.io/2018/03/18/Create_GPU_spot_EC2_for_ML/)
 
 #### Supplements - Introduction to Machine Learning
 - Machine learning overview - [강의영상](https://vimeo.com/247764673/aabdcb012b), [강의자료](https://1drv.ms/b/s!ApZ4mg7k2qYhgaNi0-Kp-PSXavrlqA)
