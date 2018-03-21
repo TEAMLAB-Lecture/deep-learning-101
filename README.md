@@ -186,6 +186,8 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 #### Lecture
 - MLP (Multi-Layer Perceptron)
 - Backpropagation
+- Feeding dataset Methods
+-
 
 #### Reading materials
 - [계산 그래프로 역전파 이해하기](https://brunch.co.kr/@chris-song/22)
