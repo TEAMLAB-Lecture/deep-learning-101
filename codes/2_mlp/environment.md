@@ -1,6 +1,6 @@
 ### 파이썬 가상환경 설정
-conda create -n dl python=3.6
 ```bash
+conda create -n dl python=3.6
 activate dl
 ```
 
@@ -34,7 +34,7 @@ atom keras_activate.bat
 ```
 
 
-#### Change `KERAS_BACKEND`
+#### Add `KERAS_BACKEND` setup in `keras_activate.bat`
 ```bash
 set "KERAS_BACKEND=tensorflow"
 set "GRAPHVIZ_DOT=C:\Program Files (x86)\Graphviz2.38\bin\dot.exe"
