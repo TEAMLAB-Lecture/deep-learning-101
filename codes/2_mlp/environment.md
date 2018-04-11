@@ -11,7 +11,7 @@ conda install -y scipy
 conda install -y pandas
 conda install -y numpy
 conda install -y scikit-learn    
-# conda install -c anaconda graphviz
+conda install -c anaconda graphviz
 conda install -y seaborn
 conda install -y matplotlib                
 conda install -y graphviz           #Visualization
@@ -24,6 +24,8 @@ Download & install
 ```bash
 conda install -y tensorflow
 conda install -c conda-forge keras
+# pip install --upgrade tensorflow
+# pip install --upgrade keras
 ```
 
 ### Keras Setup
