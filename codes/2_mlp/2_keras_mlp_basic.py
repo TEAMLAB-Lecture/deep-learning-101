@@ -13,13 +13,10 @@ num_classes = 10
 epochs = 20
 
 
-
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
 
-
 x_axis, y_axis = x_train[0].shape
-
 
 # import matplotlib.pyplot as plt
 # plt.gray()
@@ -50,10 +47,10 @@ y_test = keras.utils.to_categorical(y_test, num_classes)
 
 
 model = Sequential()
-model.add(Dense(64, activation='relu', input_shape=(784,)))
-model.add(Dropout(0.2))
-model.add(Dense(10, activation='relu'))
-model.add(Dropout(0.2))
+model.add(Dense(128, activation='relu', input_shape=(784,)))
+# model.add(Dropout(0.2))
+model.add(Dense(64, activation='relu'))
+# model.add(Dropout(0.2))
 model.add(Dense(num_classes, activation='softmax'))
 
 model.summary()
@@ -69,7 +66,6 @@ history = model.fit(x_train, y_train,
                     validation_data=(x_test, y_test))
 
 score = model.evaluate(x_test, y_test, verbose=0)
-
 
 
 print('Test loss:', score[0])

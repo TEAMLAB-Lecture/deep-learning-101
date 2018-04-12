@@ -36,22 +36,22 @@ Y = tf.placeholder(tf.float32, [None, 10])
 # ## weights & bias for nn layers
 with tf.variable_scope("layer_1", reuse=tf.AUTO_REUSE):
     W1 = tf.get_variable(
-        "w1", shape=[784, 256], initializer=tf.random_normal_initializer())
+        "w1", shape=[784, 128], initializer=tf.random_normal_initializer())
     b1 = tf.get_variable(
-        "b1", shape=[256], initializer=tf.random_normal_initializer())
+        "b1", shape=[128], initializer=tf.random_normal_initializer())
     L1 = tf.nn.relu(tf.matmul(X, W1) + b1)
 
 with tf.variable_scope("layer_2", reuse=tf.AUTO_REUSE):
     W2 = tf.get_variable(
-        "w2", shape=[256, 256], initializer=tf.random_normal_initializer())
+        "w2", shape=[128, 64], initializer=tf.random_normal_initializer())
     b2 = tf.get_variable(
-        "b2", shape=[256], initializer=tf.random_normal_initializer())
+        "b2", shape=[64], initializer=tf.random_normal_initializer())
     L2 = tf.nn.relu(tf.matmul(L1, W2) + b2)
 
 
 with tf.variable_scope("layer_3", reuse=tf.AUTO_REUSE):
     W3 = tf.get_variable(
-        "w3", shape=[256, 10], initializer=tf.random_normal_initializer())
+        "w3", shape=[64, 10], initializer=tf.random_normal_initializer())
     b3 = tf.get_variable(
         "b3", shape=[10], initializer=tf.random_normal_initializer())
     hypothesis = tf.matmul(L2, W3) + b3
@@ -128,4 +128,5 @@ print("Label: ", sess.run(tf.argmax(mnist.test.labels[r:r + 1], 1)))
 print("Prediction: ", sess.run(
     tf.argmax(hypothesis, 1), feed_dict={X: mnist.test.images[r:r + 1]}))
 
+tf.summary.merge_all()
 writer.close()
