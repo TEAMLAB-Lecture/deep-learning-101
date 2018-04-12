@@ -26,6 +26,9 @@ learning_rate = 0.001
 training_epochs = 20
 batch_size = 100
 
+tf.summary.FileWriterCache.clear()
+
+
 # ## input place holders
 X = tf.placeholder(tf.float32, [None, 784])
 Y = tf.placeholder(tf.float32, [None, 10])
@@ -52,13 +55,24 @@ with tf.variable_scope("layer_3", reuse=tf.AUTO_REUSE):
     b3 = tf.get_variable(
         "b3", shape=[10], initializer=tf.random_normal_initializer())
     hypothesis = tf.matmul(L2, W3) + b3
+    y_historgram = tf.summary.histogram("activation",hypothesis)
+
 
 
 # ## define cost/loss & optimizer
 with tf.variable_scope("cost", reuse=tf.AUTO_REUSE):
     cost = tf.reduce_mean(
-        tf.nn.softmax_cross_entropy_with_logits(logits=hypothesis, labels=Y))
+        tf.nn.softmax_cross_entropy_with_logits(logits=hypothesis, labels=Y), name ="softmax_cross_entropy")
+with tf.variable_scope("train", reuse=tf.AUTO_REUSE):
     optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate).minimize(cost)
+
+with tf.name_scope("accuracy"):
+    # Test trained model
+    correct_prediction = tf.equal(tf.argmax(Y, 1), tf.argmax(hypothesis, 1))
+    accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+    accuracy_scalar = tf.summary.scalar("accuracy",accuracy)
+
+saver = tf.train.Saver()
 
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())
@@ -67,10 +81,11 @@ sess.run(tf.global_variables_initializer())
 # writer = tf.train.SummaryWriter(
 #     "./MLP_tensorflow", graph=tf.get_default_graph())
 # merged = tf.merged_all_summeries()
-merged = tf.summary.merge_all()
-writer = tf.summary.FileWriter(
-    "./MLP_tensorflow",  graph=sess.graph)
+# merged = tf.summary.merge_all()
+writer = tf.summary.FileWriter('board_beginner')  # create writer
+writer.add_graph(sess.graph)
 
+step = 0
 for epoch in range(training_epochs):
     avg_cost = 0
     total_batch = int(mnist.train.num_examples / batch_size)
@@ -78,18 +93,23 @@ for epoch in range(training_epochs):
     for i in range(total_batch):
         batch_xs, batch_ys = mnist.train.next_batch(batch_size)
         feed_dict = {X: batch_xs, Y: batch_ys}
-        result, c, _ = sess.run([merged, cost, optimizer], feed_dict=feed_dict)
+        c, _ = sess.run([cost, optimizer], feed_dict=feed_dict)
         avg_cost += c / total_batch
-        print(result)
+        step += 1
+
+        if step % 200 == 0:
+            sum2 = sess.run(accuracy_scalar, feed_dict=feed_dict)
+            sum3 = sess.run(y_historgram, feed_dict=feed_dict)
+            writer.add_summary(sum2,step)
+            writer.add_summary(sum3,step)
+
 
     print('Epoch:', '%04d' % (epoch + 1), 'cost =', '{:.9f}'.format(avg_cost))
-    writer.add_summary(avg_cost, epoch)
 
     correct_prediction = tf.equal(tf.argmax(hypothesis, axis=1), tf.argmax(Y, axis=1))
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
     print('Accuracy:', sess.run(accuracy, feed_dict={
           X: mnist.test.images, Y: mnist.test.labels}))
-    writer.add_summary(accuracy, epoch)
 
 
 print('Learning Finished!')
