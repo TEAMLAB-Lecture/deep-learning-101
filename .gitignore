@@ -3,6 +3,7 @@
 events.out*
 *.png
 .idea
+.npy
 
 
 # Byte-compiled / optimized / DLL files
