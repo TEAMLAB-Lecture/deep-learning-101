@@ -18,7 +18,7 @@ class MLP(object):
                 W = self._weight_variable(layer_name, [input_dim, n_hidden])
                 b = self._bias_variable(layer_name, [n_hidden])
 
-                output = tf.nn.relu(tf.matmul(input, W) + b)
+                output = tf.nn.sigmoid(tf.matmul(input, W) + b)
 
         layer_name = "output"
         with tf.variable_scope(layer_name, reuse=tf.AUTO_REUSE):

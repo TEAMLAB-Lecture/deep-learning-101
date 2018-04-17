@@ -87,8 +87,8 @@ def train(config_dict):
 if __name__ == "__main__":
     config_dict = {
         "learning_rate": 0.001,
-        "n_hiddens": [256, 128],
-        "training_epochs": 20,
+        "n_hiddens": [1024, 256],
+        "training_epochs": 300,
         "batch_size": 256
         }
 
