@@ -1,3 +1,8 @@
+## Download dataset
+- [Not MNIST](http://yaroslavvb.blogspot.kr/2011/09/notmnist-dataset.html) 
+- http://yaroslavvb.com/upload/notMNIST/notMNIST_large.tar.gz
+
+
 - 데이터 셋을 만드는 두 가지 방법
   - Creating a `source` (e.g.Dataset.from_tensor_slices()) constructs a dataset from one or more tf.Tensor objects.
   - Applying a `transformation` (e.g. Dataset.batch()) constructs a dataset from one or more tf.data.Dataset objects.
@@ -11,5 +16,8 @@
   - 입력 데이터가 권장 TFRecord 형식의 디스크에있는 경우 tf.data.TFRecordDataset을 구성 할 수 있습니다.
 
 
-  dataset1  ==> Iterator 를 만드는 구조를 가져가면됨
-  
+- dataset1  ==> Iterator 를 만드는 구조를 가져가면됨
+  - one-shot
+  - initializable,
+  - reinitializable, and
+  - feedable.
