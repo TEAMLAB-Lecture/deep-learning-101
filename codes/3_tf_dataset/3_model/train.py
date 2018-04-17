@@ -18,9 +18,6 @@ def training(loss, learning_rate):
 
 
 def train(config_dict):
-    sess = tf.Session()
-    sess.run(tf.global_variables_initializer())
-
     X = tf.placeholder(tf.float32, [None, 28*28])
     Y = tf.placeholder(tf.float32, [None, 10])
 
