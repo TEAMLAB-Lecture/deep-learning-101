@@ -4,6 +4,10 @@ events.out*
 *.png
 .idea
 .npy
+Images/
+Annotation/
+*.tfrecords
+*.npy
 
 
 # Byte-compiled / optimized / DLL files

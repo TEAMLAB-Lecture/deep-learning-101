@@ -36,8 +36,10 @@ wget http://vision.stanford.edu/aditya86/ImageNetDogs/annotation.tar # Annotatio
 wget http://vision.stanford.edu/aditya86/ImageNetDogs/lists.tar # Annotation 파일 다운로드 ```
 2. 데이터의 압축을 푼다.
 ```bash
-tar -xvf annotation.tar #Annotation 폴더가 생성됨
-tar -xvf images.tar #Images 폴더가 생성됨
+tar -xvf annotation.tar # Annotation 폴더가 생성됨
+tar -xvf images.tar # Images 폴더가 생성됨
+
 ```
 
-3. ~~~~~~~~~
+### 뉴 데이터 셋
+https://hci.iwr.uni-heidelberg.de/node/6132

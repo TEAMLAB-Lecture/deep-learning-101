@@ -22,7 +22,7 @@ from models.cnn import SimpleLeNet
 from models.vgg import SimpleVGGNet
 
 flags = tf.app.flags
-flags.DEFINE_string("model", "mlp.SimpleModel", "The directory of dog images [Images]")
+flags.DEFINE_string("model", "mlp.SimpleLeNet", "The directory of dog images [Images]")
 
 def read_file_format(filename_queue):
     reader = tf.TFRecordReader()
@@ -63,7 +63,7 @@ def input_pipeline(filenames, batch_size=128, num_epochs=100,
     return  image_batch, label_batch
 
 def train(image_batch, label_batch):
-    net = SimpleLeNet()
+    net = SimpleVGGNet()
     with tf.Session() as sess:
         init_op = tf.group(
             tf.global_variables_initializer(),
