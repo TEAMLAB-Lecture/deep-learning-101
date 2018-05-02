@@ -15,11 +15,6 @@ TEST  = "test"
 flags = tf.app.flags
 flags.DEFINE_string("image_dir", "Images", "The directory of dog images [Images]")
 flags.DEFINE_string("output_dir", "tfrecords", "The directory of tfrecord_output [tfrecords]")
-flags.DEFINE_boolean("cropping", "False", "The boolean vairable of dog faces cropping [True]")
-flags.DEFINE_integer("image_height", "128", "The boolean vairable of dog faces cropping [128]")
-flags.DEFINE_integer("image_width", "128", "The boolean vairable of dog faces cropping [128]")
-flags.DEFINE_boolean("image_adjusted", "False", "The boolean vairable expressing whether or not to reduce the image without distorting the image according to the face size of the dog [False]")
-flags.DEFINE_boolean("image_augumentation", "False", "The boolean vairable of generating image data added with random distortion, upside-downside, side-to-side reversal, etc. [False]")
 flags.DEFINE_float("test_ratio", "0.2", "The ratio of test image data set [0.8]")
 
 FLAGS = flags.FLAGS
@@ -40,15 +35,14 @@ def get_total_data():
         total_data = np.array(total_data)
     return total_data
 
+def _int64_feature(value):
+  return tf.train.Feature(int64_list=tf.train.Int64List(value=[value]))
+
+def _bytes_feature(value):
+  return tf.train.Feature(bytes_list=tf.train.BytesList(value=[value]))
+
 def _get_target_dir():
-    if FLAGS.image_augumentation:
-        TAGET_DIR = "augumentation"
-    elif FLAGS.image_adjusted:
-        TAGET_DIR = "adjusted"
-    elif FLAGS.cropping:
-        TAGET_DIR = "cropping"
-    else:
-        TAGET_DIR = "general"
+    TAGET_DIR = "general"
 
     return TAGET_DIR
 
@@ -69,9 +63,6 @@ def generate_patches():
 
 def persistence_image_data_to_tfrecords(x_data, y_data, data_type,
         split_index=128):
-    """
-    Returns:
-    """
 
     TAGET_DIR = _get_target_dir()
     OUTPUT_DIR = os.path.join(FLAGS.output_dir,TAGET_DIR,data_type)
@@ -80,9 +71,6 @@ def persistence_image_data_to_tfrecords(x_data, y_data, data_type,
     if not(os.path.exists(OUTPUT_DIR)):
         os.makedirs(OUTPUT_DIR)
         print("Directory create : {0}".format(OUTPUT_DIR,))
-
-    if not(os.path.exists("./resized_image")):
-        os.makedirs("./resized_image")
 
     writer = None
     sess = None
@@ -96,6 +84,9 @@ def persistence_image_data_to_tfrecords(x_data, y_data, data_type,
     # https://stackoverflow.com/questions/45427637/is-there-a-more-simple-way-to-handle-batch-inputs-from-tfrecords
 
     for images_filename, y_label in zip(x_data, y_data):
+
+
+
         if not(images_filename[-3:] == "png"):
             print("Error - ", images_filename)
             continue
@@ -129,21 +120,20 @@ def persistence_image_data_to_tfrecords(x_data, y_data, data_type,
 
         for image in image_list:
             try:
-                image_bytes = sess.run(tf.cast(image, tf.uint8)).tobytes()
+                image_bytes = sess.run(tf.cast(image, tf.uint8)).flatten()
+                image_bytes = image_bytes.tobytes()
 
                 y_data_label = le.transform([y_label])
                 lbl_one_hot = tf.one_hot(y_data_label[0], y_data_size, 1.0, 0.0)
                 image_label = sess.run(tf.cast(lbl_one_hot, tf.uint8)).tobytes()
 
+
+                feature = {'label': _bytes_feature(image_label),
+                            'image': _bytes_feature(image_bytes)}
+
                 example = tf.train.Example(features = tf.train.Features(
-                                            feature={'label':
-                                                      tf.train.Feature(bytes_list=tf.train.BytesList(
-                                                          value=[image_label])),
-                                                      "images":
-                                                      tf.train.Feature(bytes_list=tf.train.BytesList(
-                                                          value=[image_bytes]))
-                                                     }
-                                          ))
+                                            feature=feature))
+
                 writer.write(example.SerializeToString())
                 current_index += 1
             except tf.errors.InvalidArgumentError as e:
@@ -161,7 +151,6 @@ def main(_):
 
     total_data = get_total_data()
     number_of_data_types = len(np.unique(total_data[:, 1]))
-    print(total_data[:5, 1])
     print("The number of data : {0}".format(total_data.shape[0],))
     print("The number of bleeds : {0}".format(number_of_data_types,))
 
@@ -173,8 +162,9 @@ def main(_):
 
 
     print('---------------------------------')
-    persistence_image_data_to_tfrecords(X_train, y_train, data_type=TRAIN)
-    persistence_image_data_to_tfrecords(X_test, y_test, data_type=TEST)
+
+    persistence_image_data_to_tfrecords(X_train, y_train, data_type=TRAIN, split_index=1024)
+    persistence_image_data_to_tfrecords(X_test, y_test, data_type=TEST, split_index=1024)
 
 
 if __name__ =="__main__":
