@@ -124,8 +124,9 @@ def persistence_image_data_to_tfrecords(x_data, y_data, data_type,
                 image_bytes = image_bytes.tobytes()
 
                 y_data_label = le.transform([y_label])
-                lbl_one_hot = tf.one_hot(y_data_label[0], y_data_size, 1.0, 0.0)
-                image_label = sess.run(tf.cast(lbl_one_hot, tf.uint8)).tobytes()
+                lbl_one_hot = tf.one_hot(y_data_label[0], y_data_size, 1, 0)
+                image_label = sess.run(tf.cast(lbl_one_hot, tf.uint8))
+                image_label = image_label.tobytes()
 
 
                 feature = {'label': _bytes_feature(image_label),
@@ -163,8 +164,8 @@ def main(_):
 
     print('---------------------------------')
 
-    persistence_image_data_to_tfrecords(X_train, y_train, data_type=TRAIN, split_index=1024)
-    persistence_image_data_to_tfrecords(X_test, y_test, data_type=TEST, split_index=1024)
+    persistence_image_data_to_tfrecords(X_train, y_train, data_type=TRAIN, split_index=128)
+    persistence_image_data_to_tfrecords(X_test, y_test, data_type=TEST, split_index=128)
 
 
 if __name__ =="__main__":
