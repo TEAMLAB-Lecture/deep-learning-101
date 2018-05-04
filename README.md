@@ -187,17 +187,23 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 ### Chapter 3: Aritificial Neural Net - Algorithms & Implmentation
 #### Lecture
 - MLP (Multi-Layer Perceptron)
-- Backpropagation
-- Feeding dataset Methods
--
+- Backpropagation - [강의영상](https://vimeo.com/262789657/f302f9f0af)
+
+### Chapter 4: Introduction to Tensorflow & Keras
+#### Lecture
+- TF Code guideline - [강의영상](https://vimeo.com/264570867/bd45c1b775)
+- Tensorboard - [강의영상](https://vimeo.com/264420354/6c68494e2b)
+- Keras MLP - [강의영상](https://vimeo.com/264628834/d05327fb0a)
+
 
 #### Reading materials
 - [계산 그래프로 역전파 이해하기](https://brunch.co.kr/@chris-song/22)
 
-### Chapter 4: Building blocks of Deep Learning Part I
+### Chapter 5: Building blocks of Deep Learning Part I
 #### Lecture
-- Optimization Methods
-- Normalization
+- Optimization Methods - [강의영상](https://vimeo.com/265735018/7560ba9d3f)
+- Momentum - [강의영상](https://vimeo.com/265755286/5f43539e69)
+- Adaptive Learning - [강의영상](https://vimeo.com/265755127/24eca1be32)
 
 #### Reading materials
 - [자습해도 모르겠던 딥러닝, 머리속에 인스톨 시켜드립니다.](https://www.slideshare.net/yongho/ss-79607172), 하용호, 2017
@@ -206,11 +212,10 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 ](https://shuuki4.wordpress.com/2016/01/13/batch-normalization-%EC%84%A4%EB%AA%85-%EB%B0%8F-%EA%B5%AC%ED%98%84/)
 - [Batch Normalization (ICML 2015)](http://sanghyukchun.github.io/88/)
 
-### Chapter 5: Building blocks of Deep Learning Part II
+### Chapter 6: Building blocks of Deep Learning Part II
 #### Lecture
-- Dropout
-  -
-- Regularization
+- Overfitting I(https://vimeo.com/267940999/373b8437d7)
+- Overfitting II(https://vimeo.com/267942364/ac4f5591ac)
 - Weight Initialization
   - Xavier : W = random.gaussian(n_input, n_output) / sqrt(n_input)
   - He et al., 2015 : W = random.gaussian(n_input, n_output) / sqrt(n_input / 2)
@@ -220,7 +225,30 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 ](https://arxiv.org/abs/1502.01852)
 - [Understanding the difficulty of training deep feedforward neural networks](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)
 
-### Chapter 6: Convolutional Neural Network(CNN)
+
+### Chapter 7: Dataset and and Data augumentation
+#### Lecture
+- Dataset API - [강의영상](https://vimeo.com/265236379/6184e59d88)
+- TFrecordDataset - [강의영상#1](https://vimeo.com/267858109/c075bd8014), [#2](https://vimeo.com/267864427/6925a4b65b) [#3](https://vimeo.com/267913121/660dd2c986)
+- Numpy
+- OpenCV
+- TF
+- Data augumentation
+
+#### Supplements - Ensemble
+- Chapter intro - [강의영상](), [강의자료](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/lecture_note_week_13.pdf), [강의코드](https://github.com/TeamLab/machine_learning_from_scratch_with_python/tree/master/code/ch13)
+- Ensemble model overview - [강의영상](https://vimeo.com/266049008/f1bd5e6cca)
+- Voting classifier - [강의영상](https://vimeo.com/266607794/a38e03ec54)
+- Bagging - [강의영상](https://vimeo.com/266607845/c52808b554)
+- Random Forest - [강의영상](https://vimeo.com/266658129/f6affd11da)
+- AdaBoost - [강의영상](https://vimeo.com/267610147/a1ea62fc4f)
+
+
+#### References
+- [Image augmentation for machine learning experiments](https://github.com/aleju/imgaug)
+
+
+### Chapter 8: Convolutional Neural Network(CNN)
 #### Lecture
 - Fundamentals of CNN
 - Convolution & Pooling
@@ -228,19 +256,10 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 - LeNet
 - AlexNet
 
-### Chapter 7: Image handling and Data augumentation
-#### Lecture
-- Image handling methods
-- Numpy
-- OpenCV
-- TF
-- Data augumentation
-
-#### References
-- [Image augmentation for machine learning experiments](https://github.com/aleju/imgaug)
 
 
-### Chapter 8: Advanced CNN
+
+### Chapter 9: Advanced CNN
 #### Lecture
 - VGGNet
 - GoogLeNet
@@ -249,7 +268,7 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 
 ### Midterm Project: Dogs vs Cats, Classification of Dog Bleeding problems
 
-### Chapter 9: Embedding techniques & Dimention reduction Part I
+### Chapter 10: Embedding techniques & Dimention reduction Part I
 #### Lecture
 - Concepts of Distributed Word Representation
 - Word2Vec
@@ -261,32 +280,32 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 - [Word2Vec의 학습 방식](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/30/word2vec/), ratsgo's blog, 2017
 - [빈도수 세기의 놀라운 마법 Word2Vec, Glove, Fasttext](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/11/embedding/), ratsgo's blog, 2017
 
-### Chapter 10: Embedding techniques & Dimention reduction Part II
+### Chapter 11: Embedding techniques & Dimention reduction Part II
 #### Lecture
 - Doc2Vec
 - GloVe
 - Autoencoder
 
-### Chapter 11: Recurrent Neural Network Basic (RNN)
+### Chapter 12: Recurrent Neural Network Basic (RNN)
 #### Lecture
 - Fundamentals of RNN
 - Valila RNN
 - LSTM (Long Short-Term Memory model)
 - GRU (Gated Recurrent Unit)
 
-### Chapter 12: Advanced Sequence Models
+### Chapter 13: Advanced Sequence Models
 #### Lecture
 - Sequence2Sequence Model (Encoder-Decoder)
 - Attention Mechanism
 - Transformer
 
-### Chapter 13: Generative Models
+### Chapter 14: Generative Models
 #### Lecture
 - Variational Autoencoder
 - Generative Adversarial Network
 - Variants of GAN
 
-### Chapter 14: Modern papaers & applications - Part I
+### Chapter 15: Modern papaers & applications - Part I
 #### Lecture
 - Neural Style
 - Object Detection
@@ -294,7 +313,7 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
   - U-net
   - YOLO
 
-### Chapter 15: Modern papaers & applications - Part II
+### Chapter 16: Modern papaers & applications - Part II
 #### Lecture
 - Semantic Segmentation
   - FCN, DeconvNet, DeepLab
