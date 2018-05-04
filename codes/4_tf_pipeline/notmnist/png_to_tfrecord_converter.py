@@ -61,8 +61,8 @@ def generate_patches():
         for patch in f.readlines():
             yield patch[:-1]
 
-def persistence_image_data_to_tfrecords(x_data, y_data, data_type,
-        split_index=128):
+def persistence_image_data_to_tfrecords(
+    x_data, y_data, data_type, split_index=128):
 
     TAGET_DIR = _get_target_dir()
     OUTPUT_DIR = os.path.join(FLAGS.output_dir,TAGET_DIR,data_type)
@@ -84,9 +84,6 @@ def persistence_image_data_to_tfrecords(x_data, y_data, data_type,
     # https://stackoverflow.com/questions/45427637/is-there-a-more-simple-way-to-handle-batch-inputs-from-tfrecords
 
     for images_filename, y_label in zip(x_data, y_data):
-
-
-
         if not(images_filename[-3:] == "png"):
             print("Error - ", images_filename)
             continue
@@ -107,7 +104,8 @@ def persistence_image_data_to_tfrecords(x_data, y_data, data_type,
             print("current index : {0}".format(current_index,))
             writer = tf.python_io.TFRecordWriter(record_filename)
 
-        file_full_path = os.path.join(IMAGE_DIR, y_label,  images_filename)
+        file_full_path = os.path.join(
+                IMAGE_DIR, y_label,  images_filename)
         try:
             image_file = tf.read_file(file_full_path)
             image = tf.image.decode_png(image_file)
@@ -120,7 +118,8 @@ def persistence_image_data_to_tfrecords(x_data, y_data, data_type,
 
         for image in image_list:
             try:
-                image_bytes = sess.run(tf.cast(image, tf.uint8)).flatten()
+                image_bytes = sess.run(
+                    tf.cast(image, tf.uint8))
                 image_bytes = image_bytes.tobytes()
 
                 y_data_label = le.transform([y_label])
@@ -132,7 +131,8 @@ def persistence_image_data_to_tfrecords(x_data, y_data, data_type,
                 feature = {'label': _bytes_feature(image_label),
                             'image': _bytes_feature(image_bytes)}
 
-                example = tf.train.Example(features = tf.train.Features(
+                example = tf.train.Example(
+                        features = tf.train.Features(
                                             feature=feature))
 
                 writer.write(example.SerializeToString())
@@ -145,7 +145,7 @@ def persistence_image_data_to_tfrecords(x_data, y_data, data_type,
     writer.close()
 
 def main(_):
-    print ('Converting JPEG to tfrecord datatype')
+    print ('Converting PNG to tfrecord datatype')
     print ('Argument setup')
     pp.pprint(flags.FLAGS.__flags)
     print ('---------------------------------')

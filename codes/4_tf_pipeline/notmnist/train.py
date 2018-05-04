@@ -28,11 +28,12 @@ def decode(serialized_example):
 
 
     image = tf.decode_raw(features['image'], tf.uint8)
-    image.set_shape((784))
+    image = tf.reshape(image, [784,]) 
+    #image.set_shape((784))
     image = tf.cast(image, tf.float32)
 
     label = tf.decode_raw(features['label'], tf.uint8)
-    label.set_shape((784))
+    label.set_shape((10))
     label = tf.cast(label, tf.float32)
 
     return image, label
