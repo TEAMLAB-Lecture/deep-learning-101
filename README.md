@@ -201,7 +201,7 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 
 ### Chapter 5: Building blocks of Deep Learning Part I
 #### Lecture
-- Optimization Methods - [강의영상](https://vimeo.com/265735018/7560ba9d3f)
+- Optimization Methods - [강의영상](https://vimeo.com/265735018)
 - Momentum - [강의영상](https://vimeo.com/265755286/5f43539e69)
 - Adaptive Learning - [강의영상](https://vimeo.com/265755127/24eca1be32)
 
@@ -230,10 +230,6 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 #### Lecture
 - Dataset API - [강의영상](https://vimeo.com/265236379/6184e59d88)
 - TFrecordDataset - [강의영상#1](https://vimeo.com/267858109/c075bd8014), [#2](https://vimeo.com/267864427/6925a4b65b) [#3](https://vimeo.com/267913121/660dd2c986)
-- Numpy
-- OpenCV
-- TF
-- Data augumentation
 
 #### Supplements - Ensemble
 - Chapter intro - [강의영상](), [강의자료](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/mooc_pic/lecture_note_week_13.pdf), [강의코드](https://github.com/TeamLab/machine_learning_from_scratch_with_python/tree/master/code/ch13)
@@ -252,21 +248,19 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 #### Lecture
 - Fundamentals of CNN
 - Convolution & Pooling
-- Weakly Supervised Localization
-- LeNet
-- AlexNet
+- AlexNet - [강의영상](https://vimeo.com/271664008)
+- AlexNet codes - [강의영상](https://vimeo.com/271668125)
+- Data augumentation - [강의영상](https://vimeo.com/271669510)
+- GoogleLeNet - [강의영상](https://vimeo.com/271671022)
 
 
-
-
-### Chapter 9: Advanced CNN
+### Chapter 12: Recurrent Neural Network Basic (RNN)
 #### Lecture
-- VGGNet
-- GoogLeNet
-- ResNet
-- Inception
+- Fundamentals of RNN
+- Valila RNN
+- LSTM (Long Short-Term Memory model)
+- GRU (Gated Recurrent Unit)
 
-### Midterm Project: Dogs vs Cats, Classification of Dog Bleeding problems
 
 ### Chapter 10: Embedding techniques & Dimention reduction Part I
 #### Lecture
@@ -285,13 +279,6 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 - Doc2Vec
 - GloVe
 - Autoencoder
-
-### Chapter 12: Recurrent Neural Network Basic (RNN)
-#### Lecture
-- Fundamentals of RNN
-- Valila RNN
-- LSTM (Long Short-Term Memory model)
-- GRU (Gated Recurrent Unit)
 
 ### Chapter 13: Advanced Sequence Models
 #### Lecture
