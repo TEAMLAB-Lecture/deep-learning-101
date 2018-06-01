@@ -254,7 +254,7 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 - GoogleLeNet - [강의영상](https://vimeo.com/271671022)
 
 
-### Chapter 12: Recurrent Neural Network Basic (RNN)
+### Chapter 9: Recurrent Neural Network Basic (RNN)
 #### Lecture
 - [Fundamentals of RNN](https://vimeo.com/272936400)
 - [LSTM (Long Short-Term Memory model)](https://vimeo.com/272939474)
