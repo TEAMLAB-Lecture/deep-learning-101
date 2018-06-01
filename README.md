@@ -256,10 +256,9 @@ TEAMLAB MOOC: Deep Learning - Theory and Application
 
 ### Chapter 12: Recurrent Neural Network Basic (RNN)
 #### Lecture
-- Fundamentals of RNN
-- Valila RNN
-- LSTM (Long Short-Term Memory model)
-- GRU (Gated Recurrent Unit)
+- [Fundamentals of RNN](https://vimeo.com/272936400)
+- [LSTM (Long Short-Term Memory model)](https://vimeo.com/272939474)
+- [GRU (Gated Recurrent Unit)](https://vimeo.com/272940272)
 
 
 ### Chapter 10: Embedding techniques & Dimention reduction Part I
