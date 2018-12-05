@@ -1,8 +1,3 @@
-
-## References
-- http://nmhkahn.github.io/
-- http://blog.naver.com/laonple/220469250655
-
 ## 강의 구성
 ### Chapter 1: Introduction to Deep Learning
 #### Lecture
@@ -279,6 +274,10 @@
   - DCN
   - Bi-DAF
 
+
+## References
+  - http://nmhkahn.github.io/
+  - http://blog.naver.com/laonple/220469250655
 
 
 ## Keywords
