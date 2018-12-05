@@ -1,6 +1,36 @@
+TEAMLAB MOOC: Deep Learning - Theory and Application
+==================================
+
+본 강의는 TEAMLAB의 데이터 과학 시리즈 MOOC의 일환으로 제작됩니다. 본 과정은 아래와 같이 구성됩니다.
+
+- (K-MOOC) [데이터 과학을 위한 파이썬 입문](http://www.kmooc.kr/courses/course-v1:GachonUnivK+ACE.GachonUnivK01+2016_01/about)
+- (Inflearn) [데이터 과학을 위한 파이썬 입문](https://www.inflearn.com/course/python-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%85%EB%AC%B8-%EA%B0%95%EC%A2%8C/) - 위와 동일과정이나 Lab Assignment등 업데이트 및 질의응답 제공
+- (Inflearn)[밑바닥부터 시작하는 머신러닝](https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EC%9E%85%EB%AC%B8-%EA%B0%95%EC%A2%8C/)
+- (K-MOOC)[Operation Research with Python Programming](https://github.com/TeamLab/Gachon_CS50_OR_KMOOC)
+- [Applied Database System with Python Programming](https://github.com/TeamLab/database_101/blob/master/README.md) - 개발중
+- [Deep Learning - Theroy and Application]() - 본 과정
+
+## 강의 개요
+딥 러닝의 시대!
+80년대 Hilton 교수에 의해 제안된 Back propagation 구조로 인간의 신경망과 유사한 형태로 뉴럴넷을 구성하여 학습 가능하다는 것이 알려진 이후, 지난 20년간 뉴럴넷은 비약적인 발전을 거듭했다. 특히 2000년대 초반 정보화 혁명과 스마트폰의 출현이후 폭증가하는 데이터와 GPU의 발전 그리고 연구자들의 끊임없는 노력에 의해 개발된 새로운 알고리즘은 현재를 딥 러닝의 시대로 이끌어가고 있다. 본 강의는 딥러닝을 학습하기 위해 기본적인 알고리즘인 ANN, CNN, RNN을 학습하고, 이를 바탕으로 최근 가장 많은 관심을 받고 있는 VAE와 GAN의 기초이론을 학습한다. 또한 실제 Application에 적용하기 위해 대표적인 딥러닝 프레임워크인 Tesnsoflow와 Keras을 학습하여, 다양한 딥 러닝 Application을 개발하는 것을 목표로 한다.
+
+## 강의 목표
+- 딥 러닝의 구성하는 기초 이론과 알고리즘을 학습함
+- 딥 러닝 구현을 위해 대표적인 딥러닝 프레임워크인 Tensorflow와 Keras를 학습함
+- 딥 러닝을 활용한 다양한 Application과 관련 논문을 구현함
+
+## 강의 정보
+* 강좌명: Deep Learning - Theory and Application
+* 강의자명: 가천대학교 산업경영공학과 최성철 교수 (sc82.choi@gachon.ac.kr, Director of [TEAMLAB](http://theteamlab.io/))
+* Facebook: [Gachon CS50](https://www.facebook.com/GachonCS50)
+* Email: teamlab.gachon@gmail.com
+
+## Dataset
+- [Caltech101 Collection of pictures](http://www.vision.caltech.edu/Image_Datasets/Caltech101/#Download) - [s3](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/data/101_ObjectCategories.tar.gz)
+- [notMNIST](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html) - [s3](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/data/notMNIST_large.tar.gz)
+- [20news-bydate](https://s3.ap-northeast-2.amazonaws.com/teamlab-gachon/data/20news-bydate.tar.gz)
 
 ## References
-<<<<<<< HEAD
 - http://nmhkahn.github.io/
 - http://blog.naver.com/laonple/220469250655
 
@@ -224,7 +254,7 @@
 - GoogleLeNet - [강의영상](https://vimeo.com/271671022)
 
 
-### Chapter 9: Recurrent Neural Network Basic (RNN)
+### Chapter 12: Recurrent Neural Network Basic (RNN)
 #### Lecture
 - [Fundamentals of RNN](https://vimeo.com/272936400)
 - [LSTM (Long Short-Term Memory model)](https://vimeo.com/272939474)
@@ -283,6 +313,3 @@
 
 ## Keywords
 파이썬, python, 딥러닝, 딥러닝 입문, 딥러닝 강좌, Deep Learning, Deep Learning, 딥러닝 강의, Deep Learngng 강의, Deep Learning MOOC, 가천대 최성철, 최성철 교수, 데이터 과학, 데이터 사이언스, Data science
-=======
-- http://deeplearning.cs.cmu.edu/
->>>>>>> 82895d5de2f5da2f1b39962d863136fea16d5a97
