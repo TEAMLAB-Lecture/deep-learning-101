@@ -1,6 +1,5 @@
 
 ## References
-<<<<<<< HEAD
 - http://nmhkahn.github.io/
 - http://blog.naver.com/laonple/220469250655
 
@@ -268,6 +267,7 @@
   - RCNN, Fast(er)-RCNN
   - U-net
   - YOLO
+- https://github.com/hoya012/deep_learning_object_detection
 
 ### Chapter 16: Modern papaers & applications - Part II
 #### Lecture
@@ -283,6 +283,3 @@
 
 ## Keywords
 파이썬, python, 딥러닝, 딥러닝 입문, 딥러닝 강좌, Deep Learning, Deep Learning, 딥러닝 강의, Deep Learngng 강의, Deep Learning MOOC, 가천대 최성철, 최성철 교수, 데이터 과학, 데이터 사이언스, Data science
-=======
-- http://deeplearning.cs.cmu.edu/
->>>>>>> 82895d5de2f5da2f1b39962d863136fea16d5a97
