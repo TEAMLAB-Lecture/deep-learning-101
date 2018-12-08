@@ -6,6 +6,10 @@
 - Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep Learning. MIT Press., 2018 [link](https://github.com/janishar/mit-deep-learning-book-pdf)
 
 
+
+
+
+
 ## Syllabus and Lecture Resources
 ### Week 1. Introduction to Deep Learning
 - History of Deep Learning
@@ -14,12 +18,21 @@
 ### Week x. Foundations of Deep Learning - Logistic Regression
 ### Week x. Perceptron and Mulit Layer Perceptron
 ### Week x. Building blocks of Deep Learning
+https://distill.pub/2017/momentum/?fbclid=IwAR2KcWR77PqnGgW_9hv1vzcitx5XcqII_Jw1nuofqzN4IvxlZRGOMH9VJss
+
 ### Week x. Convolutional Neural Net
 - Fundamentals of CNN
 - Convolution & Pooling
 - AlexNet
+https://www.facebook.com/dgtgrade/posts/1592507747474752
+
 ### Week x. Performance Issues and Turning
 - Data augumentation
+https://blog.metaflow.fr/tensorflow-a-proposal-of-good-practices-for-files-folders-and-models-architecture-f23171501ae3?fbclid=IwAR2pz0Zwc9PoC6D9FkYScqi7SuAVyJlNlheNecaRreaZGVrGBA7dYfTBTN4
+- https://wookayin.github.io/TensorFlowKR-2017-talk-bestpractice/ko/?fbclid=IwAR3l0i9-Fg5jNvfDB9RxcrbuEHJKtpp5pKrs4JO6j6MgG03VyoDw84rG10s#2
+-
+##### Articles
+- [모델 튜닝법 - 남세동, 2018]https://www.facebook.com/dgtgrade/posts/1864002613658596
 
 ### Week x. Advanced CNN
 ### Week x. Neural Embeddings
@@ -27,11 +40,13 @@
 - Word2Vec
 - Skip-gram & CBOW
 - Negative Sampling
-
+https://monkeylearn.com/blog/beginners-guide-text-vectorization/?fbclid=IwAR0KOmSb-aOnuZMuVkciqwaH8CuzyoKggs4OCnHUZ8q6NpnOq66BtxauKdU
+https://www.facebook.com/GoodDayToPlay/posts/375335199569148
+https://brunch.co.kr/@goodvc78/16?fbclid=IwAR1bbPk29ngjr4esd3TuncLUiawhau9vcGMsVDpuUteZVE-cQeNjYvE2nv8
 
 #### Reading materials
 ##### Papers
-##### Blog articles
+##### Articles
 - [CBOW Impementation wit Keras](https://www.kdnuggets.com/2018/04/implementing-deep-learning-methods-feature-engineering-text-data-cbow.html)
 
 ##### Videos
@@ -42,10 +57,16 @@
 - LSTM (Long Short-Term Memory model)
 - GRU (Gated Recurrent Unit)
 - Sequence2Sequence Model (Encoder-Decoder)
+https://medium.com/@TalPerry/getting-text-into-tensorflow-with-the-dataset-api-ffb832c8bec6?fbclid=IwAR3Lv1yFyhULobDVzSDHG_ctuvU3G9-vVSmpGA4Icp-SWeyTbXipm6IOifM
+http://roboticist.tistory.com/571?fbclid=IwAR2McFuG4KUpMhDAmtRLx1kV90PvrR9Uozqnwrj8k1LUWfrTmypQ9cz2IW0
+
 ### Week x. Learning Representation for unsupervised learning
+- Deep Belif Network
 - Autoencoder
 - DEC
 - ~~
+https://blog.sicara.com/keras-tutorial-content-based-image-retrieval-convolutional-denoising-autoencoder-dc91450cc511?fbclid=IwAR0KKuBf-RNQwbbTBH1J47kPyRbO_FLKo3F6gQMEcW0b_pPFCsv4_CLoLyQ
+https://www.youtube.com/watch?v=6DO_jVbDP3I&fbclid=IwAR3gdGJhYi_jmLInWTBhTPDNyi1ysh1PS-TkUkAT7yx6jURpAu54zqX34NE
 
 
 #### Week x. Advanced Applications
@@ -56,18 +77,36 @@
   - YOLO
 
 #### Week x. Advanced Applications
+http://warmspringwinds.github.io/tensorflow/tf-slim/2016/10/30/image-classification-and-segmentation-using-tensorflow-and-tf-slim/?fbclid=IwAR2xCuq9fANQDQqGsz-0mKQ9zeOVUcOMs6cV6K-Yvmxg_p_34BiscaiSlGM
   - Semantic Segmentation
   - FCN, DeconvNet, DeepLab
   - U-Net, Fusion Net, PSPNet
+
+https://weiminwang.blog/2017/03/20/using-tensorflow-to-build-image-to-text-deep-learning-application/?fbclid=IwAR3WcTz_LViqYdxh01yiQid3wN44uH8Vu4MUA1zCobrRuvThTt4eXpuHK4o
 
 #### Week x. Genearive Models
 - Variational Autoencoder
 - Generative Adversarial Network
 - Variants of GAN
+https://www.slideshare.net/MingukKang/generative-adversarial-network-89571268?fbclid=IwAR0QR37PJ3hOk_xIiFG7zSi0Pk8_e_mpkySRWAJfdQx0kPgp5pAS-aGM9ys
 
+#### Week x. Modern Issues
+https://www.facebook.com/groups/TensorFlowKR/permalink/554019594939103/
 
-
-
+## References
+- https://www.facebook.com/groups/TensorFlowKR/permalink/759277004413360/
+- https://www.youtube.com/watch?v=IKHzc7sGCxQ&feature=youtu.be&fbclid=IwAR3guScQRGjFOWuthjJbrrWP21K0mOt-fZTkFnIy95eQLhfbTHwZ0lxxPy8
+- Tesnsorflow Online Handbook - [link](https://www.facebook.com/MontrealAI/posts/723743667970894)
+- https://www.facebook.com/groups/TensorFlowKR/permalink/451098461897884/
+- http://neuralnetworksanddeeplearning.com/index.html?fbclid=IwAR1mkP-Lc8lYmedeIzpO4IxY4DzOkW3ikaaBV01UyZgyYa62iEHsf-MoBDk
+- https://www.facebook.com/dgtgrade/posts/1679749038750622
+- https://www.facebook.com/groups/TensorFlowKR/permalink/556980944642968/
+- https://www.facebook.com/groups/TensorFlowKR/permalink/490430184631378/
+- https://www.facebook.com/groups/TensorFlowKR/permalink/432969130377484/
+- https://www.facebook.com/dgtgrade/posts/1340177956041067
+- https://docs.google.com/presentation/d/1TVixw6ItiZ8igjp6U17tcgoFrLSaHWQmMOwjlgQY9co/pub?fbclid=IwAR0qsGtfunN-FpUj5Fhhy6TezYVSZMvsJThAOGuMkoJ35FQGT7PSVzQcOkc&slide=id.g110257a6da_0_476
+- http://hunkim.github.io/ml/?fbclid=IwAR3R-w_qdbZgfr9HFm7b_thvxnKtYuAjqhMV2UlRFXQl7iXffVdhMASOd1k
+- https://www.youtube.com/watch?v=SGZ6BttHMPw&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH
 <!-- ## Syllabus
 #### ch 0. Programming environment setup
 ##### Python setup
@@ -243,7 +282,3 @@ https://arxiv.org/pdf/1412.3555.pdf
 https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/43905.pdf
 https://arxiv.org/pdf/1712.00170.pdf
 https://arxiv.org/abs/1406.2661 -->
-
-
-## References
-https://www.youtube.com/watch?v=IKHzc7sGCxQ&feature=youtu.be&fbclid=IwAR3guScQRGjFOWuthjJbrrWP21K0mOt-fZTkFnIy95eQLhfbTHwZ0lxxPy8
