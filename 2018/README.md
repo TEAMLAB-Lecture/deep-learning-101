@@ -1,15 +1,64 @@
-<!-- # Deep Learning for Natural Language Processing
-## Announcement
-- **(9/15) Generating embeddings using Wikipedia corpus with Word2Vec (10/4)**
+# Deep Learning - Theory and Application(TEMLAB_DL2018)
 
 ## Instructor
 
 ## Reference Texts
-- Yoav Goldberg. A Primer on Neural Network Models for Natural Language Processing [link](https://piazza-resources.s3.amazonaws.com/iyaaxqe1yxg7fm/iybxmq5nkds6ln/goldberg_2017_book_draft_20170123.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAR6AWVCBXWF65RCFJ%2F20180829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180829T162708Z&X-Amz-Expires=10800&X-Amz-SignedHeaders=host&X-Amz-Security-Token=FQoGZXIvYXdzELz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDA4Ikbvz0RVbmEPA%2ByK3A9ufABeW09UhdDhdszEV8NatB5PNYjoKy6uroe9iiIkOHa9IFEXlelehO0fRQKm2Ncdmv7VBYggvOzrjLbrWwQEpHPi7UAlUhYKJA53yaT5zrp46abmMzyhR%2FeIG383dPFgSe2wo5vBJ3geUvhaD7siTN1MdNNnlLTKDVYzeh8K05veAkVbineQgGkCrs%2FK0xzdwFM6nEZYOn2XFNx6hE8mgGEBi5FWwUstDGa%2BJzxpIbFN0dWFV20LW%2Fz%2BNO3BY8tat7WGd0oznAX8t%2BhkmwNCD9pWcAP9eiFq1VRGd0BKHAsElpNJv6D7NffYWYarMV7C2DK6XkZwQNp9IhaLx0wCDcKCkpgYjufZPFy78ias2JVBFvr7Z5d3dAA9UhRoZDeJ1CkM3FIc%2BqxvcdRyHlTCX9NEKFccdT8AuzXtudaIe%2BrS26TCEwWVigD64pGKgSAljP67hgy%2FXTZSlWS0Zxwi2r8mrOZSmSyCPllOwA9u%2F1x2s%2Fq3KTMQwygZm%2BuYcizy8HdBqQ6z9ZI5eIkGpYzsLNcggzzImFi0lH8%2BKGdSv7a4EiSOV8GLmLnW1VtpTPYb49TbZgp8o9vSZ3AU%3D&X-Amz-Signature=5da24611e5df7f801d9eb16cee57806b0f4fac840a51868277e81b8ca08041a4)
-- Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep Learning. MIT Press. [link](https://github.com/janishar/mit-deep-learning-book-pdf)
+- Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep Learning. MIT Press., 2018 [link](https://github.com/janishar/mit-deep-learning-book-pdf)
 
 
-## Syllabus
+## Syllabus and Lecture Resources
+#### Week 1. Introduction to Deep Learning
+- History of Deep Learning
+- Programming environment for Deep Learning
+
+#### Week x. Foundations of Deep Learning - Logistic Regression
+#### Week x. Perceptron and Mulit Layer Perceptron
+#### Week x. Building blocks of Deep Learning
+#### Week x. Convolutional Neural Net
+- Fundamentals of CNN
+- Convolution & Pooling
+- AlexNet
+#### Week x. Performance Issues and Turning
+- Data augumentation
+
+#### Week x. Advanced CNN
+#### Week x. Neural Embeddings
+- Concepts of Distributed Word Representation
+- Word2Vec
+- Skip-gram & CBOW
+- Negative Sampling
+#### Week x. Recurrent Neural Net
+- Fundamentals of RNN
+- LSTM (Long Short-Term Memory model)
+- GRU (Gated Recurrent Unit)
+- Sequence2Sequence Model (Encoder-Decoder)
+#### Week x. Learning Representation for unsupervised learning
+- Autoencoder
+- DEC
+- ~~
+
+
+#### Week x. Advanced Applications
+- Neural Style
+- Object Detection
+  - RCNN, Fast(er)-RCNN
+  - U-net
+  - YOLO
+
+#### Week x. Advanced Applications
+  - Semantic Segmentation
+  - FCN, DeconvNet, DeepLab
+  - U-Net, Fusion Net, PSPNet
+
+#### Week x. Genearive Models
+- Variational Autoencoder
+- Generative Adversarial Network
+- Variants of GAN
+
+
+
+
+<!-- ## Syllabus
 #### ch 0. Programming environment setup
 ##### Python setup
   1. Python installation - [conda](https://www.youtube.com/watch?v=lqSNOIPGbns&index=5&list=PLBHVuYlKEkUJcXrgVu-bFx-One095BJ8I) , [atom](https://www.youtube.com/watch?v=cCxfLSIDfrk&index=6&list=PLBHVuYlKEkUJcXrgVu-bFx-One095BJ8I), [ML environment](https://www.youtube.com/watch?v=P4dOSb0jcUw&index=7&list=PLBHVuYlKEkUKnfbWvRCrwSuSeYh_QUlRl), [jupyter](https://www.youtube.com/watch?v=Hz_k_0sOv-w&index=8&list=PLBHVuYlKEkUKnfbWvRCrwSuSeYh_QUlRl)
@@ -160,8 +209,8 @@
 Personalizing Dialogue Agents](https://arxiv.org/abs/1801.07243), [dataset](http://parl.ai/)
 
 ##### Reading Materials - Blog
-- [Chat Smarter with Allo](https://ai.googleblog.com/2016/05/chat-smarter-with-allo.html)
- -->
+- [Chat Smarter with Allo](https://ai.googleblog.com/2016/05/chat-smarter-with-allo.html) -->
+
 
 <!-- #### ch 6. Dependency Parsing
 
