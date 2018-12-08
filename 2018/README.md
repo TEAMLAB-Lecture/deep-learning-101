@@ -7,32 +7,42 @@
 
 
 ## Syllabus and Lecture Resources
-#### Week 1. Introduction to Deep Learning
+### Week 1. Introduction to Deep Learning
 - History of Deep Learning
 - Programming environment for Deep Learning
 
-#### Week x. Foundations of Deep Learning - Logistic Regression
-#### Week x. Perceptron and Mulit Layer Perceptron
-#### Week x. Building blocks of Deep Learning
-#### Week x. Convolutional Neural Net
+### Week x. Foundations of Deep Learning - Logistic Regression
+### Week x. Perceptron and Mulit Layer Perceptron
+### Week x. Building blocks of Deep Learning
+### Week x. Convolutional Neural Net
 - Fundamentals of CNN
 - Convolution & Pooling
 - AlexNet
-#### Week x. Performance Issues and Turning
+### Week x. Performance Issues and Turning
 - Data augumentation
 
-#### Week x. Advanced CNN
-#### Week x. Neural Embeddings
+### Week x. Advanced CNN
+### Week x. Neural Embeddings
 - Concepts of Distributed Word Representation
 - Word2Vec
 - Skip-gram & CBOW
 - Negative Sampling
-#### Week x. Recurrent Neural Net
+
+
+#### Reading materials
+##### Papers
+##### Blog articles
+- [CBOW Impementation wit Keras](https://www.kdnuggets.com/2018/04/implementing-deep-learning-methods-feature-engineering-text-data-cbow.html)
+
+##### Videos
+
+
+### Week x. Recurrent Neural Net
 - Fundamentals of RNN
 - LSTM (Long Short-Term Memory model)
 - GRU (Gated Recurrent Unit)
 - Sequence2Sequence Model (Encoder-Decoder)
-#### Week x. Learning Representation for unsupervised learning
+### Week x. Learning Representation for unsupervised learning
 - Autoencoder
 - DEC
 - ~~
