@@ -14,6 +14,12 @@
 ### Week x. Foundations of Deep Learning - Logistic Regression
 ### Week x. Perceptron and Mulit Layer Perceptron
 ### Week x. Building blocks of Deep Learning
+
+#### Reading materials
+##### Papers
+##### Articles
+- Adam Optimization Algorithm - [link](https://engmrk.com/adam-optimization-algorithm/?fbclid=IwAR2PTzeRAXv3RxM6Oq0bRJ0cArOg1ccGdQ2-ASqRr4mXyj_WA-wUF3qG5Ag)
+
 ### Week x. Convolutional Neural Net
 - Fundamentals of CNN
 - Convolution & Pooling
