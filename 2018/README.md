@@ -17,6 +17,10 @@
 
 #### Reading materials
 ##### Papers
+
+##### Datasets
+- Kuzushiji-MNIST - [arxiv](https://arxiv.org/abs/1812.01718?fbclid=IwAR04SwjXfrlVQxNiluqbrcS2-RKN8GTkMZyeIV5OMN-7liaVXPJZe23EUmY), [github](https://github.com/rois-codh/kmnist), [dataset](http://codh.rois.ac.jp/kmnist/?fbclid=IwAR2bv1XLI5YObvL0qrwIIi9eaLxPCSkV1pc8nJe3MyCaUUrjWqqjHXQZwtw) 
+
 ##### Articles
 - Adam Optimization Algorithm - [link](https://engmrk.com/adam-optimization-algorithm/?fbclid=IwAR2PTzeRAXv3RxM6Oq0bRJ0cArOg1ccGdQ2-ASqRr4mXyj_WA-wUF3qG5Ag)
 
