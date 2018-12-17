@@ -15,12 +15,13 @@
 - History of Deep Learning
 - Programming environment for Deep Learning
 
+
+##### Articles
+- Deep Learning Hardware Guide - [link](http://timdettmers.com/2018/12/16/deep-learning-hardware-guide/?fbclid=IwAR00w6IMdsIzAgeogyD7m87_qnoHxgk_FKCrZ5sLBRFfu3K2f6P4JNI6Rv0)
+
 ### Week x. Foundations of Deep Learning - Logistic Regression
 ### Week x. Perceptron and Mulit Layer Perceptron
 ### Week x. Building blocks of Deep Learning
-<<<<<<< HEAD
-https://distill.pub/2017/momentum/?fbclid=IwAR2KcWR77PqnGgW_9hv1vzcitx5XcqII_Jw1nuofqzN4IvxlZRGOMH9VJss
-=======
 
 #### Reading materials
 ##### Papers
@@ -30,7 +31,9 @@ https://distill.pub/2017/momentum/?fbclid=IwAR2KcWR77PqnGgW_9hv1vzcitx5XcqII_Jw1
 
 ##### Articles
 - Adam Optimization Algorithm - [link](https://engmrk.com/adam-optimization-algorithm/?fbclid=IwAR2PTzeRAXv3RxM6Oq0bRJ0cArOg1ccGdQ2-ASqRr4mXyj_WA-wUF3qG5Ag)
->>>>>>> 6d2f473105e117a49e2190413acb8af272628438
+
+- https://distill.pub/2017/momentum/?fbclid=IwAR2KcWR77PqnGgW_9hv1vzcitx5XcqII_Jw1nuofqzN4IvxlZRGOMH9VJss
+
 
 ### Week x. Convolutional Neural Net
 - Fundamentals of CNN
