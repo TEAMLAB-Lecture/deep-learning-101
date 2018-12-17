@@ -18,7 +18,19 @@
 ### Week x. Foundations of Deep Learning - Logistic Regression
 ### Week x. Perceptron and Mulit Layer Perceptron
 ### Week x. Building blocks of Deep Learning
+<<<<<<< HEAD
 https://distill.pub/2017/momentum/?fbclid=IwAR2KcWR77PqnGgW_9hv1vzcitx5XcqII_Jw1nuofqzN4IvxlZRGOMH9VJss
+=======
+
+#### Reading materials
+##### Papers
+
+##### Datasets
+- Kuzushiji-MNIST - [arxiv](https://arxiv.org/abs/1812.01718?fbclid=IwAR04SwjXfrlVQxNiluqbrcS2-RKN8GTkMZyeIV5OMN-7liaVXPJZe23EUmY), [github](https://github.com/rois-codh/kmnist), [dataset](http://codh.rois.ac.jp/kmnist/?fbclid=IwAR2bv1XLI5YObvL0qrwIIi9eaLxPCSkV1pc8nJe3MyCaUUrjWqqjHXQZwtw)
+
+##### Articles
+- Adam Optimization Algorithm - [link](https://engmrk.com/adam-optimization-algorithm/?fbclid=IwAR2PTzeRAXv3RxM6Oq0bRJ0cArOg1ccGdQ2-ASqRr4mXyj_WA-wUF3qG5Ag)
+>>>>>>> 6d2f473105e117a49e2190413acb8af272628438
 
 ### Week x. Convolutional Neural Net
 - Fundamentals of CNN
@@ -57,8 +69,14 @@ https://brunch.co.kr/@goodvc78/16?fbclid=IwAR1bbPk29ngjr4esd3TuncLUiawhau9vcGMsV
 - LSTM (Long Short-Term Memory model)
 - GRU (Gated Recurrent Unit)
 - Sequence2Sequence Model (Encoder-Decoder)
+<<<<<<< HEAD
 https://medium.com/@TalPerry/getting-text-into-tensorflow-with-the-dataset-api-ffb832c8bec6?fbclid=IwAR3Lv1yFyhULobDVzSDHG_ctuvU3G9-vVSmpGA4Icp-SWeyTbXipm6IOifM
 http://roboticist.tistory.com/571?fbclid=IwAR2McFuG4KUpMhDAmtRLx1kV90PvrR9Uozqnwrj8k1LUWfrTmypQ9cz2IW0
+=======
+
+https://www.tensorflow.org/tutorials/sequences/text_generation?fbclid=IwAR0DqihLFK5NbpFacg_qHQPL5lwYQn8sxlnoS3yz1sopJzjzxkdqeG_EQiE
+
+>>>>>>> 6d2f473105e117a49e2190413acb8af272628438
 
 ### Week x. Learning Representation for unsupervised learning
 - Deep Belif Network
