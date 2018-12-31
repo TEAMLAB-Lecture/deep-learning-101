@@ -75,7 +75,6 @@ https://brunch.co.kr/@goodvc78/16?fbclid=IwAR1bbPk29ngjr4esd3TuncLUiawhau9vcGMsV
 <<<<<<< HEAD
 https://medium.com/@TalPerry/getting-text-into-tensorflow-with-the-dataset-api-ffb832c8bec6?fbclid=IwAR3Lv1yFyhULobDVzSDHG_ctuvU3G9-vVSmpGA4Icp-SWeyTbXipm6IOifM
 http://roboticist.tistory.com/571?fbclid=IwAR2McFuG4KUpMhDAmtRLx1kV90PvrR9Uozqnwrj8k1LUWfrTmypQ9cz2IW0
-=======
 
 https://www.tensorflow.org/tutorials/sequences/text_generation?fbclid=IwAR0DqihLFK5NbpFacg_qHQPL5lwYQn8sxlnoS3yz1sopJzjzxkdqeG_EQiE
 
@@ -96,6 +95,15 @@ https://www.youtube.com/watch?v=6DO_jVbDP3I&fbclid=IwAR3gdGJhYi_jmLInWTBhTPDNyi1
   - RCNN, Fast(er)-RCNN
   - U-net
   - YOLO
+
+
+#### Reading materials
+##### Papers
+##### Articles
+- https://github.com/hoya012/deep_learning_object_detection?fbclid=IwAR1oR8TLNhUStP5kUYEEQmsYyBfli2XM9RlWQC1H3VOTvCi9ROfopEo6LGE
+
+##### Videos
+
 
 #### Week x. Advanced Applications
 http://warmspringwinds.github.io/tensorflow/tf-slim/2016/10/30/image-classification-and-segmentation-using-tensorflow-and-tf-slim/?fbclid=IwAR2xCuq9fANQDQqGsz-0mKQ9zeOVUcOMs6cV6K-Yvmxg_p_34BiscaiSlGM
