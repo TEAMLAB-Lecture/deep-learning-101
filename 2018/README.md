@@ -111,6 +111,9 @@ https://github.com/hccho2/Tacotron-Wavenet-Vocoder?fbclid=IwAR30GuMX73FtupaNmwRr
 - Variants of GAN
 https://www.slideshare.net/MingukKang/generative-adversarial-network-89571268?fbclid=IwAR0QR37PJ3hOk_xIiFG7zSi0Pk8_e_mpkySRWAJfdQx0kPgp5pAS-aGM9ys
 
+
+From GAN to WGAN - [link](https://lilianweng.github.io/lil-log/2017/08/20/from-GAN-to-WGAN.html)
+
 #### Week x. Modern Issues
 https://www.facebook.com/groups/TensorFlowKR/permalink/554019594939103/
 
