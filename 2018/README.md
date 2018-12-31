@@ -70,13 +70,11 @@ https://brunch.co.kr/@goodvc78/16?fbclid=IwAR1bbPk29ngjr4esd3TuncLUiawhau9vcGMsV
 - LSTM (Long Short-Term Memory model)
 - GRU (Gated Recurrent Unit)
 - Sequence2Sequence Model (Encoder-Decoder)
-<<<<<<< HEAD
 https://medium.com/@TalPerry/getting-text-into-tensorflow-with-the-dataset-api-ffb832c8bec6?fbclid=IwAR3Lv1yFyhULobDVzSDHG_ctuvU3G9-vVSmpGA4Icp-SWeyTbXipm6IOifM
 http://roboticist.tistory.com/571?fbclid=IwAR2McFuG4KUpMhDAmtRLx1kV90PvrR9Uozqnwrj8k1LUWfrTmypQ9cz2IW0
 
 https://www.tensorflow.org/tutorials/sequences/text_generation?fbclid=IwAR0DqihLFK5NbpFacg_qHQPL5lwYQn8sxlnoS3yz1sopJzjzxkdqeG_EQiE
 
->>>>>>> 6d2f473105e117a49e2190413acb8af272628438
 
 ### Week x. Learning Representation for unsupervised learning
 - Deep Belif Network
@@ -95,13 +93,7 @@ https://www.youtube.com/watch?v=6DO_jVbDP3I&fbclid=IwAR3gdGJhYi_jmLInWTBhTPDNyi1
   - YOLO
 
 
-#### Reading materials
-##### Papers
-##### Articles
-- https://github.com/hoya012/deep_learning_object_detection?fbclid=IwAR1oR8TLNhUStP5kUYEEQmsYyBfli2XM9RlWQC1H3VOTvCi9ROfopEo6LGE
-
-##### Videos
-
+Object Detection for Dummies - [#1](https://lilianweng.github.io/lil-log/2017/10/29/object-recognition-for-dummies-part-1.html), [#2](https://lilianweng.github.io/lil-log/2017/12/15/object-recognition-for-dummies-part-2.html), [#3](https://lilianweng.github.io/lil-log/2017/12/31/object-recognition-for-dummies-part-3.html), [#4](https://lilianweng.github.io/lil-log/2018/12/27/object-detection-part-4.html)
 
 #### Week x. Advanced Applications
 http://warmspringwinds.github.io/tensorflow/tf-slim/2016/10/30/image-classification-and-segmentation-using-tensorflow-and-tf-slim/?fbclid=IwAR2xCuq9fANQDQqGsz-0mKQ9zeOVUcOMs6cV6K-Yvmxg_p_34BiscaiSlGM
