@@ -8,8 +8,6 @@
 
 
 
-
-
 ## Syllabus and Lecture Resources
 ### Week 1. Introduction to Deep Learning
 - History of Deep Learning
@@ -104,6 +102,8 @@ http://warmspringwinds.github.io/tensorflow/tf-slim/2016/10/30/image-classificat
   - U-Net, Fusion Net, PSPNet
 
 https://weiminwang.blog/2017/03/20/using-tensorflow-to-build-image-to-text-deep-learning-application/?fbclid=IwAR3WcTz_LViqYdxh01yiQid3wN44uH8Vu4MUA1zCobrRuvThTt4eXpuHK4o
+https://github.com/hccho2/Tacotron-Wavenet-Vocoder?fbclid=IwAR30GuMX73FtupaNmwRrSftf9hAELMmqFJyecnGz1xYl_ieeMDhSTmEsB7s
+
 
 #### Week x. Genearive Models
 - Variational Autoencoder
@@ -298,7 +298,7 @@ https://ratsgo.github.io/korean%20linguistics/2017/04/29/parsing/
 ### Reference
 https://github.com/keon/awesome-nlp/blob/master/README.md
 https://github.com/dparlevliet/awesome-nlp
-
+https://www.analyticsvidhya.com/blog/2018/12/best-data-science-machine-learning-projects-github/?fbclid=IwAR2VtTqnYCo4AsFBOAzwcp2f4dbB4Mu_R0FtJwkYV3aKzdqN5Z6pLv0Zl0E
 https://arxiv.org/pdf/1412.3555.pdf
 https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/43905.pdf
 https://arxiv.org/pdf/1712.00170.pdf
