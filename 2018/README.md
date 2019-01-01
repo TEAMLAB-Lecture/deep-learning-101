@@ -118,6 +118,7 @@ From GAN to WGAN - [link](https://lilianweng.github.io/lil-log/2017/08/20/from-G
 https://www.facebook.com/groups/TensorFlowKR/permalink/554019594939103/
 
 ## References
+- https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap?fbclid=IwAR3TTzaMIvHKshrGntLAx5cL8Mdh-cQngp5qhhrYJGVGF0EUhtUnL134dxQ
 - https://www.facebook.com/groups/TensorFlowKR/permalink/759277004413360/
 - https://www.youtube.com/watch?v=IKHzc7sGCxQ&feature=youtu.be&fbclid=IwAR3guScQRGjFOWuthjJbrrWP21K0mOt-fZTkFnIy95eQLhfbTHwZ0lxxPy8
 - Tesnsorflow Online Handbook - [link](https://www.facebook.com/MontrealAI/posts/723743667970894)
