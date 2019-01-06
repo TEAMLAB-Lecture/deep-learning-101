@@ -72,11 +72,18 @@ model.compile(loss='binary_crossentropy',
              optimizer=optimizers.RMSprop(lr=1e-4),
              metrics=['acc'])
 
+from tensorflow.keras.callbacks import ModelCheckpoint
+
+filepath="weights.best.h5"
+checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
+callbacks_list = [checkpoint]
+
 history = model.fit_generator(
     train_datagenerator, 
     steps_per_epoch=100,
     epochs=30,
     validation_data=validation_datagenerator,
+    callbacks=callbacks_list,
     validation_steps=50)
 
 # Save the weights
