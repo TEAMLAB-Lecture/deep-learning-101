@@ -6,7 +6,6 @@ from tensorflow.keras import models
 from tensorflow.keras import layers
 
 
-
 def build_label(dataset):
   return [1 if "dog" in filename else 0 for filename in dataset ]
 
@@ -74,7 +73,8 @@ model.compile(loss='binary_crossentropy',
 
 from tensorflow.keras.callbacks import ModelCheckpoint
 
-filepath="weights.best.h5"
+filepath="weights.basic.best.h5"
+
 checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
 callbacks_list = [checkpoint]
 
@@ -87,10 +87,10 @@ history = model.fit_generator(
     validation_steps=50)
 
 # Save the weights
-model.save_weights('model_weights.h5')
+model.save_weights('base_model_weights_dogs_and_cats.h5')
 
 # Save the model architecture
-with open('model_architecture.json', 'w') as f:
+with open('base_model_dogs_and_cats.json', 'w') as f:
     f.write(model.to_json())
 
 score = model.evaluate_generator(
