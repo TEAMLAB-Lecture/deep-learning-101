@@ -47,6 +47,7 @@ https://blog.metaflow.fr/tensorflow-a-proposal-of-good-practices-for-files-folde
 ##### Articles
 - [모델 튜닝법 - 남세동, 2018]https://www.facebook.com/dgtgrade/posts/1864002613658596
 - [Tutorial on Keras flow_from_dataframe](https://medium.com/@vijayabhaskar96/tutorial-on-keras-flow-from-dataframe-1fd4493d237c)
+- [Keras on TPUs in Colab](https://medium.com/tensorflow/tf-keras-on-tpus-on-colab-674367932aa0?fbclid=IwAR0asD_jtPJIQr0ZGsAStziNcm3kQz4D0qAex5RjdG2uroQ24YuLGD0krqs)
 
 ### Week x. Advanced CNN
 ### Week x. Neural Embeddings
