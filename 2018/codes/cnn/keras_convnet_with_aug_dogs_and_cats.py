@@ -73,12 +73,12 @@ model.add(layers.Dense(512, activation="relu"))
 model.add(layers.Dense(1, activation="sigmoid"))
 
 model.compile(loss='binary_crossentropy',
-             optimizer=optimizers.RMSprop(lr=1e-4),
+             optimizer=optimizers.Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=1e-4, decay=0.001, amsgrad=False),
              metrics=['acc'])
 
 from tensorflow.keras.callbacks import ModelCheckpoint
 
-filepath="weights.best.h5"
+filepath="weights.aug.best.h5"
 checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
 callbacks_list = [checkpoint]
 
@@ -96,6 +96,8 @@ model.save_weights('model_weights.h5')
 # Save the model architecture
 with open('model_architecture.json', 'w') as f:
     f.write(model.to_json())
+
+model.load_weights('weights.aug.best.h5')
 
 score = model.evaluate_generator(
     test_datagenerator, workers=12)

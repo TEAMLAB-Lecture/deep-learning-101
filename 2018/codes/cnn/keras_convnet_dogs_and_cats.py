@@ -93,6 +93,8 @@ model.save_weights('base_model_weights_dogs_and_cats.h5')
 with open('base_model_dogs_and_cats.json', 'w') as f:
     f.write(model.to_json())
 
+model.load_weights('weights.basic.best.h5')
+
 score = model.evaluate_generator(
     test_datagenerator, workers=12)
 print("Loss: ", score[0], "Accuracy: ", score[1])
