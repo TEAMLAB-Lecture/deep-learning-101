@@ -8,6 +8,8 @@ Images/
 Annotation/
 *.tfrecords
 *.npy
+*.json
+*.h5
 
 
 # Byte-compiled / optimized / DLL files
