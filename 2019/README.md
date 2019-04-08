@@ -1,6 +1,9 @@
-# Deep Learning - Theory and Application(TEMLAB_DL2018)
+# Deep Learning - Theory and Application
 
-## Instructor
+## 강의 정보
+* 강좌명: Deep Learning - Theory and Application
+* 강의자명: 가천대학교 산업경영공학과 최성철 교수 (sc82.choi@gachon.ac.kr, Director of [TEAMLAB](http://theteamlab.io/))
+* Email: teamlab.gachon@gmail.com
 
 ## Reference Texts
 - Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep Learning. MIT Press., 2018 [link](https://github.com/janishar/mit-deep-learning-book-pdf)
@@ -9,31 +12,64 @@
 
 
 ## Syllabus and Lecture Resources
-### Week 1. Introduction to Deep Learning
-- History of Deep Learning
-- Programming environment for Deep Learning
+## 강의 구성
+### Chapter 1: Introduction to Deep Learning
+#### Lecture
+- 왜 딥러닝의 시대가 시작되었는가?
+- 딥 러닝의 역사
+- 딥 러닝 Applications
+- 딥 러닝 Framework 비교
+- 딥 러닝 Framework 설치
+  - Tensorflow
+  - Keras
+
+#### Reading materials
+- [History and Background](https://beamandrew.github.io/deeplearning/2017/02/23/deep_learning_101_part1.html)
+- [윈도우에 Keras 설치하기](https://tykimos.github.io/2017/08/07/Keras_Install_on_Windows/)
+
+#### Coding environment
+- [Google Drive Colaboratory ], todaycodes오늘코드
+(https://www.youtube.com/watch?v=XRBXMohjQos&list=PLaTc2c6yEwmo9MZi-0OLi8F6bM6AA0wjE)
+- [Colaboratory]
+)(https://colab.research.google.com)
+- [GPU on AWS](https://beomi.github.io/2018/03/18/Create_GPU_spot_EC2_for_ML/)
+- [AWS Deep Learning AMI](https://aws.amazon.com/ko/machine-learning/amis/)
 
 
 ##### Articles
 - Deep Learning Hardware Guide - [link](http://timdettmers.com/2018/12/16/deep-learning-hardware-guide/?fbclid=IwAR00w6IMdsIzAgeogyD7m87_qnoHxgk_FKCrZ5sLBRFfu3K2f6P4JNI6Rv0)
 
-### Week x. Foundations of Deep Learning - Logistic Regression
-### Week x. Perceptron and Mulit Layer Perceptron
-### Week x. Building blocks of Deep Learning
+### Chapter 2: Foundations of Deep Learning - Logistic Regression
+### Chapter 3: Perceptron and Mulit Layer Perceptron
+### Chapter 4: Building blocks of Deep Learning
+
 
 #### Reading materials
-##### Papers
+- [자습해도 모르겠던 딥러닝, 머리속에 인스톨 시켜드립니다.](https://www.slideshare.net/yongho/ss-79607172), 하용호, 2017
+- [Efficient Processing of Deep Neural Networks: A Tutorial and Survey](https://arxiv.org/abs/1703.09039), 2017
+- [Batch Normalization 설명 및 구현](https://shuuki4.wordpress.com/2016/01/13/batch-normalization-%EC%84%A4%EB%AA%85-%EB%B0%8F-%EA%B5%AC%ED%98%84/)
+- [Batch Normalization (ICML 2015)](http://sanghyukchun.github.io/88/)
+- Adam Optimization Algorithm - [link](https://engmrk.com/adam-optimization-algorithm/?fbclid=IwAR2PTzeRAXv3RxM6Oq0bRJ0cArOg1ccGdQ2-ASqRr4mXyj_WA-wUF3qG5Ag)
+- https://distill.pub/2017/momentum/?fbclid=IwAR2KcWR77PqnGgW_9hv1vzcitx5XcqII_Jw1nuofqzN4IvxlZRGOMH9VJss
+
 
 ##### Datasets
 - Kuzushiji-MNIST - [arxiv](https://arxiv.org/abs/1812.01718?fbclid=IwAR04SwjXfrlVQxNiluqbrcS2-RKN8GTkMZyeIV5OMN-7liaVXPJZe23EUmY), [github](https://github.com/rois-codh/kmnist), [dataset](http://codh.rois.ac.jp/kmnist/?fbclid=IwAR2bv1XLI5YObvL0qrwIIi9eaLxPCSkV1pc8nJe3MyCaUUrjWqqjHXQZwtw)
 
+
+
+### Chapter 7: Dataset and and Data augumentation
+#### Lecture
+- Dataset API - [강의영상](https://vimeo.com/265236379/6184e59d88)
+- TFrecordDataset - [강의영상#1](https://vimeo.com/267858109/c075bd8014), [#2](https://vimeo.com/267864427/6925a4b65b) [#3](https://vimeo.com/267913121/660dd2c986)
+-
+
 ##### Articles
-- Adam Optimization Algorithm - [link](https://engmrk.com/adam-optimization-algorithm/?fbclid=IwAR2PTzeRAXv3RxM6Oq0bRJ0cArOg1ccGdQ2-ASqRr4mXyj_WA-wUF3qG5Ag)
+- [모델 튜닝법 - 남세동, 2018]https://www.facebook.com/dgtgrade/posts/1864002613658596
+- [Tutorial on Keras flow_from_dataframe](https://medium.com/@vijayabhaskar96/tutorial-on-keras-flow-from-dataframe-1fd4493d237c)
+- [Keras on TPUs in Colab](https://medium.com/tensorflow/tf-keras-on-tpus-on-colab-674367932aa0?fbclid=IwAR0asD_jtPJIQr0ZGsAStziNcm3kQz4D0qAex5RjdG2uroQ24YuLGD0krqs)
 
-- https://distill.pub/2017/momentum/?fbclid=IwAR2KcWR77PqnGgW_9hv1vzcitx5XcqII_Jw1nuofqzN4IvxlZRGOMH9VJss
-
-
-### Week x. Convolutional Neural Net
+<!-- ### Week x. Convolutional Neural Net
 - Fundamentals of CNN
 - Convolution & Pooling
 - AlexNet
@@ -42,14 +78,11 @@ https://www.facebook.com/dgtgrade/posts/1592507747474752
 ### Week x. Performance Issues and Turning
 - Data augumentation
 https://blog.metaflow.fr/tensorflow-a-proposal-of-good-practices-for-files-folders-and-models-architecture-f23171501ae3?fbclid=IwAR2pz0Zwc9PoC6D9FkYScqi7SuAVyJlNlheNecaRreaZGVrGBA7dYfTBTN4
-- https://wookayin.github.io/TensorFlowKR-2017-talk-bestpractice/ko/?fbclid=IwAR3l0i9-Fg5jNvfDB9RxcrbuEHJKtpp5pKrs4JO6j6MgG03VyoDw84rG10s#2
+- https://wookayin.github.io/TensorFlowKR-2017-talk-bestpractice/ko/?fbclid=IwAR3l0i9-Fg5jNvfDB9RxcrbuEHJKtpp5pKrs4JO6j6MgG03VyoDw84rG10s#2 -->
 -
-##### Articles
-- [모델 튜닝법 - 남세동, 2018]https://www.facebook.com/dgtgrade/posts/1864002613658596
-- [Tutorial on Keras flow_from_dataframe](https://medium.com/@vijayabhaskar96/tutorial-on-keras-flow-from-dataframe-1fd4493d237c)
-- [Keras on TPUs in Colab](https://medium.com/tensorflow/tf-keras-on-tpus-on-colab-674367932aa0?fbclid=IwAR0asD_jtPJIQr0ZGsAStziNcm3kQz4D0qAex5RjdG2uroQ24YuLGD0krqs)
 
-### Week x. Advanced CNN
+
+<!-- ### Week x. Advanced CNN
 ### Week x. Neural Embeddings
 - Concepts of Distributed Word Representation
 - Word2Vec
@@ -117,7 +150,7 @@ https://www.slideshare.net/MingukKang/generative-adversarial-network-89571268?fb
 From GAN to WGAN - [link](https://lilianweng.github.io/lil-log/2017/08/20/from-GAN-to-WGAN.html)
 
 #### Week x. Modern Issues
-https://www.facebook.com/groups/TensorFlowKR/permalink/554019594939103/
+https://www.facebook.com/groups/TensorFlowKR/permalink/554019594939103/ -->
 
 ## References
 - https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap?fbclid=IwAR3TTzaMIvHKshrGntLAx5cL8Mdh-cQngp5qhhrYJGVGF0EUhtUnL134dxQ
