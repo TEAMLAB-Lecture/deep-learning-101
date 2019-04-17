@@ -5,14 +5,17 @@
 * 강의자명: 가천대학교 산업경영공학과 최성철 교수 (sc82.choi@gachon.ac.kr, Director of [TEAMLAB](http://theteamlab.io/))
 * Email: teamlab.gachon@gmail.com
 
-## Reference Texts
+## Reference Textbooks
 - Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep Learning. MIT Press., 2018 [link](https://github.com/janishar/mit-deep-learning-book-pdf)
 
-
-
+## Reference Lectures
+- 모두를 위한 머신러닝/딥러닝 강의 (김성훈, 2017) - [link](http://hunkim.github.io/ml/?fbclid=IwAR3R-w_qdbZgfr9HFm7b_thvxnKtYuAjqhMV2UlRFXQl7iXffVdhMASOd1k)
+- Deep Learning (deeplearning.ai, 2018) - [link]()
+- https://www.youtube.com/watch?v=SGZ6BttHMPw&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH
 
 ## Syllabus and Lecture Resources
 ## 강의 구성
+
 ### Chapter 1: Introduction to Deep Learning
 #### Lecture
 - 왜 딥러닝의 시대가 시작되었는가?
@@ -27,48 +30,92 @@
 - [History and Background](https://beamandrew.github.io/deeplearning/2017/02/23/deep_learning_101_part1.html)
 - [윈도우에 Keras 설치하기](https://tykimos.github.io/2017/08/07/Keras_Install_on_Windows/)
 
-#### Coding environment
-- [Google Drive Colaboratory ], todaycodes오늘코드
-(https://www.youtube.com/watch?v=XRBXMohjQos&list=PLaTc2c6yEwmo9MZi-0OLi8F6bM6AA0wjE)
-- [Colaboratory]
-)(https://colab.research.google.com)
-- [GPU on AWS](https://beomi.github.io/2018/03/18/Create_GPU_spot_EC2_for_ML/)
-- [AWS Deep Learning AMI](https://aws.amazon.com/ko/machine-learning/amis/)
-
-
 ##### Articles
 - Deep Learning Hardware Guide - [link](http://timdettmers.com/2018/12/16/deep-learning-hardware-guide/?fbclid=IwAR00w6IMdsIzAgeogyD7m87_qnoHxgk_FKCrZ5sLBRFfu3K2f6P4JNI6Rv0)
 
 ### Chapter 2: Foundations of Deep Learning - Logistic Regression
-### Chapter 3: Perceptron and Mulit Layer Perceptron
-### Chapter 4: Building blocks of Deep Learning
+#### Lecture
+- Deep Learning Ecosystem
+- TensorFlow Overview
 
+#### Coding environment
+- [Google Drive Colaboratory ], todaycodes오늘코드
+(https://www.youtube.com/watch?v=XRBXMohjQos&list=PLaTc2c6yEwmo9MZi-0OLi8F6bM6AA0wjE)
+- [Colaboratory](https://colab.research.google.com)
+- [GPU on AWS](https://beomi.github.io/2018/03/18/Create_GPU_spot_EC2_for_ML/)
+- [AWS Deep Learning AMI](https://aws.amazon.com/ko/machine-learning/amis/)
+
+
+### Chapter 3: Perceptron and Multi Layer Perceptron
+#### Lecture
+- Multi Layer Perceptron Overview
+- Computation Graph
+- Backpropagtaion
+- Activiation functions
+- Hidden Units
+- Build MLP Model with TF
+- Build MLP Model with Keras
+
+#### Reading materials
+- Backpropagation 설명자료 - [link](https://www.facebook.com/groups/TensorFlowKR/permalink/432969130377484/)
+
+### Chapter 4: Network Turning
+#### Lecture
+- Network Turning Overview
+- Data augumentation
+- Mini-batch SGD
+- Early stopping
+- l2 Regularization
+- Dropout
+- Weight initialization
+- Learnin rate decay
+- Optimizer Overview
+- Momemntum Optimizer
+- Adaptive Optimizer
+- Batch Normalization
+- Hyper Parameter Turning
 
 #### Reading materials
 - [자습해도 모르겠던 딥러닝, 머리속에 인스톨 시켜드립니다.](https://www.slideshare.net/yongho/ss-79607172), 하용호, 2017
 - [Efficient Processing of Deep Neural Networks: A Tutorial and Survey](https://arxiv.org/abs/1703.09039), 2017
 - [Batch Normalization 설명 및 구현](https://shuuki4.wordpress.com/2016/01/13/batch-normalization-%EC%84%A4%EB%AA%85-%EB%B0%8F-%EA%B5%AC%ED%98%84/)
 - [Batch Normalization (ICML 2015)](http://sanghyukchun.github.io/88/)
+- An Excessively Deep Dive Into Natural Gradient Optimization - [link](https://databreak.netlify.com/2019-04-13-Natural_Gradient_Optimzation/?fbclid=IwAR0JxxbStBUTaNzI5bKuxa8PqO9b3pxpM3kn5AKj5gMVtUysAJo57w-MeYo)
 - Adam Optimization Algorithm - [link](https://engmrk.com/adam-optimization-algorithm/?fbclid=IwAR2PTzeRAXv3RxM6Oq0bRJ0cArOg1ccGdQ2-ASqRr4mXyj_WA-wUF3qG5Ag)
-- https://distill.pub/2017/momentum/?fbclid=IwAR2KcWR77PqnGgW_9hv1vzcitx5XcqII_Jw1nuofqzN4IvxlZRGOMH9VJss
+- Why Momentum Really Works - [link](https://distill.pub/2017/momentum/?fbclid=IwAR2KcWR77PqnGgW_9hv1vzcitx5XcqII_Jw1nuofqzN4IvxlZRGOMH9VJss)
 
-
-##### Datasets
-- Kuzushiji-MNIST - [arxiv](https://arxiv.org/abs/1812.01718?fbclid=IwAR04SwjXfrlVQxNiluqbrcS2-RKN8GTkMZyeIV5OMN-7liaVXPJZe23EUmY), [github](https://github.com/rois-codh/kmnist), [dataset](http://codh.rois.ac.jp/kmnist/?fbclid=IwAR2bv1XLI5YObvL0qrwIIi9eaLxPCSkV1pc8nJe3MyCaUUrjWqqjHXQZwtw)
-
-
-
-### Chapter 7: Dataset and and Data augumentation
+### Chapter 5: Network Turning Strategy
 #### Lecture
+- Network Turning Strategy Overview
+- Keras with TF 2.0
+
+#### Coding materials
 - Dataset API - [강의영상](https://vimeo.com/265236379/6184e59d88)
 - TFrecordDataset - [강의영상#1](https://vimeo.com/267858109/c075bd8014), [#2](https://vimeo.com/267864427/6925a4b65b) [#3](https://vimeo.com/267913121/660dd2c986)
--
 
-##### Articles
+#### Reading materials
 - [모델 튜닝법 - 남세동, 2018]https://www.facebook.com/dgtgrade/posts/1864002613658596
 - [Tutorial on Keras flow_from_dataframe](https://medium.com/@vijayabhaskar96/tutorial-on-keras-flow-from-dataframe-1fd4493d237c)
 - [Keras on TPUs in Colab](https://medium.com/tensorflow/tf-keras-on-tpus-on-colab-674367932aa0?fbclid=IwAR0asD_jtPJIQr0ZGsAStziNcm3kQz4D0qAex5RjdG2uroQ24YuLGD0krqs)
 
+#### Datasets
+- Kuzushiji-MNIST - [arxiv](https://arxiv.org/abs/1812.01718?fbclid=IwAR04SwjXfrlVQxNiluqbrcS2-RKN8GTkMZyeIV5OMN-7liaVXPJZe23EUmY), [github](https://github.com/rois-codh/kmnist), [dataset](http://codh.rois.ac.jp/kmnist/?fbclid=IwAR2bv1XLI5YObvL0qrwIIi9eaLxPCSkV1pc8nJe3MyCaUUrjWqqjHXQZwtw)
+
+
+### Chapter 6: Convolutional Neural Network
+#### Lecture
+- Convolution Nerual Net
+- AlexNet
+- Advanced CNN
+    - VGG
+    - Inception - GoogLeNet
+    - ResNet
+
+#### Additional materials
+- Partial Convolution based Padding - [YouTube](https://www.youtube.com/watch?v=IKHzc7sGCxQ&feature=youtu.be&fbclid=IwAR3guScQRGjFOWuthjJbrrWP21K0mOt-fZTkFnIy95eQLhfbTHwZ0lxxPy8), [arxiv](https://arxiv.org/abs/1811.11718)
+
+
+https://distill.pub/2019/memorization-in-rnns/?fbclid=IwAR3vo3wfvBiKTRw2b-aws0rsm9Uq7azG5lzpybJfI33e-La6y26GIecGILQ
 <!-- ### Week x. Convolutional Neural Net
 - Fundamentals of CNN
 - Convolution & Pooling
@@ -153,20 +200,21 @@ From GAN to WGAN - [link](https://lilianweng.github.io/lil-log/2017/08/20/from-G
 https://www.facebook.com/groups/TensorFlowKR/permalink/554019594939103/ -->
 
 ## References
-- https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap?fbclid=IwAR3TTzaMIvHKshrGntLAx5cL8Mdh-cQngp5qhhrYJGVGF0EUhtUnL134dxQ
-- https://www.facebook.com/groups/TensorFlowKR/permalink/759277004413360/
-- https://www.youtube.com/watch?v=IKHzc7sGCxQ&feature=youtu.be&fbclid=IwAR3guScQRGjFOWuthjJbrrWP21K0mOt-fZTkFnIy95eQLhfbTHwZ0lxxPy8
+
+#### Reading Materials
+- 딥 러닝 개발 면접 질문 (남세동, 2018) - [link](https://www.facebook.com/dgtgrade/posts/1679749038750622)
+- 딥 러닝 공부법 모음 (남세동, 2018) - [link](https://www.facebook.com/dgtgrade/posts/1340177956041067)
+- 딥 러닝 프로젝트 목록 (박규병, 2018) - [link](https://www.facebook.com/groups/TensorFlowKR/permalink/759277004413360/)
+
+#### Lecture Materials
+- 딥러닝 책 정리 자료 (이활석, 2018), [link](https://www.facebook.com/groups/TensorFlowKR/permalink/451098461897884/)
 - Tesnsorflow Online Handbook - [link](https://www.facebook.com/MontrealAI/posts/723743667970894)
-- https://www.facebook.com/groups/TensorFlowKR/permalink/451098461897884/
-- http://neuralnetworksanddeeplearning.com/index.html?fbclid=IwAR1mkP-Lc8lYmedeIzpO4IxY4DzOkW3ikaaBV01UyZgyYa62iEHsf-MoBDk
-- https://www.facebook.com/dgtgrade/posts/1679749038750622
-- https://www.facebook.com/groups/TensorFlowKR/permalink/556980944642968/
-- https://www.facebook.com/groups/TensorFlowKR/permalink/490430184631378/
-- https://www.facebook.com/groups/TensorFlowKR/permalink/432969130377484/
-- https://www.facebook.com/dgtgrade/posts/1340177956041067
-- https://docs.google.com/presentation/d/1TVixw6ItiZ8igjp6U17tcgoFrLSaHWQmMOwjlgQY9co/pub?fbclid=IwAR0qsGtfunN-FpUj5Fhhy6TezYVSZMvsJThAOGuMkoJ35FQGT7PSVzQcOkc&slide=id.g110257a6da_0_476
-- http://hunkim.github.io/ml/?fbclid=IwAR3R-w_qdbZgfr9HFm7b_thvxnKtYuAjqhMV2UlRFXQl7iXffVdhMASOd1k
-- https://www.youtube.com/watch?v=SGZ6BttHMPw&list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH
+- Deep Learning Papers Reading Roadmap - [link](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap?fbclid=IwAR3TTzaMIvHKshrGntLAx5cL8Mdh-cQngp5qhhrYJGVGF0EUhtUnL134dxQ)
+-  딥 러닝 공부 자료 모음 (고재형, 2017) - [link](https://www.facebook.com/groups/TensorFlowKR/permalink/556980944642968/)
+- 딥 러닝 관련 페이스북 아티클 모음 (이활설, 2017) - [link](https://www.facebook.com/groups/TensorFlowKR/permalink/490430184631378/)
+- TensorFlow and DeepLearning without Ph.D - [link](https://docs.google.com/presentation/d/1TVixw6ItiZ8igjp6U17tcgoFrLSaHWQmMOwjlgQY9co/pub?fbclid=IwAR0qsGtfunN-FpUj5Fhhy6TezYVSZMvsJThAOGuMkoJ35FQGT7PSVzQcOkc&slide=id.g110257a6da_0_476)
+
+
 <!-- ## Syllabus
 #### ch 0. Programming environment setup
 ##### Python setup
