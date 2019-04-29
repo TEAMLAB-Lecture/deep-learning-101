@@ -48,10 +48,10 @@
 
 ### Chapter 3: Perceptron and Multi Layer Perceptron
 #### Lecture
-- Multi Layer Perceptron Overview
-- Computation Graph
-- Backpropagtaion
-- Activiation functions
+- Multi Layer Perceptron Overview - [강의영상](https://vimeo.com/327559376)
+- Computation Graph - [강의영상](https://vimeo.com/327559472)
+- Backpropagtaion - [강의영상](https://vimeo.com/327559448)
+- Activiation functions - [강의영상](https://vimeo.com/327559432)
 - Hidden Units
 - Build MLP Model with TF
 - Build MLP Model with Keras
@@ -61,9 +61,9 @@
 
 ### Chapter 4: Network Turning
 #### Lecture
-- Network Turning Overview
-- Data augumentation
-- Mini-batch SGD
+- Network Turning Overview - [강의영상](https://vimeo.com/329287153/286e5cee0f)
+- Data augumentation - [강의영상](https://vimeo.com/329287180/71893cb2e1)
+- Mini-batch SGD - [강의영상](https://vimeo.com/329287123/c230292555)
 - Early stopping
 - l2 Regularization
 - Dropout
@@ -87,7 +87,7 @@
 ### Chapter 5: Network Turning Strategy
 #### Lecture
 - Network Turning Strategy Overview
-- Keras with TF 2.0
+- Keras with TF 2.0 - [강의영상](https://vimeo.com/329503817/2c99e32970)
 
 #### Coding materials
 - Dataset API - [강의영상](https://vimeo.com/265236379/6184e59d88)
