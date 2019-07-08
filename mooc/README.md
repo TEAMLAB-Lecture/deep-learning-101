@@ -20,17 +20,32 @@
         - MAP
         - Multi-labeling problems
     - Data augumentation
-    - Dropout families
+    - Dropout families 
     - Batch Normalization Familes
 
 ## ch7. Convolution Neurla Network
+    - CNN basic concepts
+    - AlexNet & VGG Network
+    - GoogLeNet & Inception
+    - ResNet
 ## ch8. Advanced CNN
+    -
     - Transfer learning
+    - TFHub
     - Freezing
 
 ## ch9. CNN and Applications  
+    - Neural Transfer
+    - Object Detection
+    - Image segmentation
 ## ch10. Embedings and Text Processing
     - Text-Cnn Paper Review
+    - Embedding concepts
+    - Word2Vec
+    - Korean Word2Vec
+    - GloVe and FastText
+    - Doc2Vec and Document embeddings
+
 ## ch11. Recurrent Neural Network (RNN)
     - RNN의 기본 개념
     - RNN 수식
@@ -39,10 +54,31 @@
     - RNN 구현 Keras
     - LSTM 
     - GRU
+
 ## ch12. RNN and applications
     - Simple Text Generation
+    - Image Captioning
     - Visual Question Ansewring
     - LSTM for time series
+
+## ch13. Machine Translation and Transformer
+    - Attention Mechanism
+    - Attention is all you need: Transformer  
+    - Elmo : Context embedding
+    - Open AI GPT
+    - BERT: Pre-training of Deep Bidirectional Transformers
+
+## ch14. Unsupervised Learning - GAN
+## ch15. Unsupervised Learning - VAE
+## ch16. New Architectures for applications
+    - CapSule Network
+    - 
+    - DeepWalk
+    - GCN
+    - Diff2Vec
+
+
+
 
 
 
