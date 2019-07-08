@@ -66,5 +66,7 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# Dataset
 .ipynb_checkpoints/
 dataset/
+*.csv
